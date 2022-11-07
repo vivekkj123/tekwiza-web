@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../src/components/Navbar";
 import eventImage from "../public/images/Events/demo.jpg";
 import tekothon from '../public/images/Events/tekothon.png'
+import Link from "next/link";
 
 const Events = () => {
   return (
@@ -17,11 +18,13 @@ const Events = () => {
           <h2>CSE Events</h2>
         </div>
       <div className="EventGallery grid grid-cols-3 py-5 px-10">
-        <div className="event my-5 mx-20 border-2 pt-2 flex flex-col justify-center w-40 h-auto border-gray-400">
+        <div className="event rounded-lg my-5 lg:mx-20 border-2 pt-2 flex flex-col justify-center w-40 h-auto border-gray-400">
           <Image className="" src={tekothon} />
           <h2 className="text-2xl mx-4">Tek-O-Thon</h2>
-          <div className="bg-white px-4 py-2 mt-3 text-black">
+          <div className="bg-white rounded-b-lg px-4 py-2 mt-3 text-black">
+            <Link href={'https://tekothon.in/home'}>
             <h4 className="text-sm">Learn More...</h4>
+            </Link>
           </div>
         </div>
         </div>
