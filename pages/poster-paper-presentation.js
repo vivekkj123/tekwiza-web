@@ -63,7 +63,7 @@ const PosterPaperPresentation = () => {
           </div>
         </div>
         <Link href={"https://forms.gle/FYFL7Pps3t9W2NKi6"}>
-          <div className="text-center mx-auto button w-40 lg:w-48 mb-3 font-mono bg-white text-black px-4 lg:px-10 py-3">
+          <div className="text-center rounded-lg mx-auto button w-40 lg:w-48 mb-3 font-mono bg-white text-black px-4 lg:px-10 py-3">
             Click here to submit abstract
           </div>
         </Link>

@@ -30,7 +30,9 @@ const Navbar = () => {
           <Link href="/poster-paper-presentation">
             <h3 className="ml-5 cursor-pointer">Poster / Paper Presentation</h3>
           </Link>
-          <h3 className="ml-5 cursor-pointer">Contact Us</h3>
+          <Link href="/contact-us">
+            <h3 className="ml-5 cursor-pointer">Contact Us</h3>
+          </Link>
         </div>
       </div>
       <div
@@ -54,7 +56,9 @@ const Navbar = () => {
             Poster / Paper Presentation
           </h3>
         </Link>
-        <h3 className="cursor-pointer bg-black px-10 my-1">Contact Us</h3>
+        <Link href="/contact-us">
+          <h3 className="cursor-pointer bg-black px-10 my-1">Contact Us</h3>
+        </Link>
       </div>
     </>
   );
