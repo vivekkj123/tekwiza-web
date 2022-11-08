@@ -1,34 +1,33 @@
 import Image from "next/image";
 import React from "react";
 import Navbar from "../src/components/Navbar";
-import eventImage from "../public/images/Events/demo.jpg";
-import tekothon from '../public/images/Events/tekothon.png'
+import tekothon from "../public/images/Events/tekothon.png";
 import Link from "next/link";
 
 const Events = () => {
   return (
     <div className="h-max overflow-hidden z-20 bg-black Events">
       <Navbar />
-      <div className="h-30 py-6 border-slate-700 border-2 flex text-4xl items-center px-20">
+      <div className="h-30 py-2 lg:py-6 border-gray-900 border-2 flex text-2xl lg:text-4xl items-center px-4 lg:px-20">
         <h2>
           Tekwiza <br /> Events
         </h2>
       </div>
-        <div className="DeptSeperator w-screen text-2xl mx-20 mt-12 border-b-2  border-b-gray-800">
-          <h2>CSE Events</h2>
-        </div>
-      <div className="EventGallery grid grid-cols-3 py-5 px-10">
+      <div className="DeptSeperator w-screen text-2xl mx-5 lg:mx-20 mt-12 border-b-2  border-b-gray-900">
+        <h2>CSE Events</h2>
+      </div>
+      <div className="EventGallery grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center lg:px-10">
         <div className="event rounded-lg my-5 lg:mx-20 border-2 pt-2 flex flex-col justify-center w-40 h-auto border-gray-400">
           <Image className="" src={tekothon} />
           <h2 className="text-2xl mx-4">Tek-O-Thon</h2>
           <div className="bg-white rounded-b-lg px-4 py-2 mt-3 text-black">
-            <Link href={'https://tekothon.in/home'}>
-            <h4 className="text-sm">Learn More...</h4>
+            <Link href={"https://tekothon.in/home"}>
+              <h4 className="text-sm">Learn More...</h4>
             </Link>
           </div>
         </div>
-        </div>
-        {/* <div className="DeptSeperator w-screen text-2xl mx-20 mt-12 border-b-2  border-b-gray-800">
+      </div>
+      {/* <div className="DeptSeperator w-screen text-2xl mx-20 mt-12 border-b-2  border-b-gray-800">
           <h2>Civil Engineering Events</h2>
         </div>
       <div className="EventGallery grid grid-cols-3 py-5 px-10">
@@ -39,9 +38,8 @@ const Events = () => {
             <h4 className="text-sm">Learn More...</h4>
           </div>
         </div></div> */}
-        
-        
-        {/* <div className="event my-5 mx-20 border-2 p-10 w-40 h-44 border-gray-400">
+
+      {/* <div className="event my-5 mx-20 border-2 p-10 w-40 h-44 border-gray-400">
           <Image className="h-28 w-auto" src={eventImage} />
         </div>
         <div className="event my-5 mx-20 border-2 p-10 w-40 h-44 border-gray-400">
@@ -50,7 +48,7 @@ const Events = () => {
         <div className="event my-5 mx-20 border-2 p-10 w-40 h-44 border-gray-400">
           <Image className="h-28 w-auto" src={eventImage} />
         </div> */}
-        {/* <div className="event m-20">Event 1</div>
+      {/* <div className="event m-20">Event 1</div>
         <div className="event m-20">Event 1</div>
         <div className="event m-20">Event 1</div>
         <div className="event m-20">Event 1</div>
