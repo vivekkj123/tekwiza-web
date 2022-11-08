@@ -24,11 +24,11 @@ const Navbar = () => {
         </div>
         <div className="Links hidden lg:flex">
           <Link href="/events">
-            <h3  className="ml-5 cursor-pointer">Events</h3>
+            <h3 className="ml-5 cursor-pointer">Events</h3>
           </Link>
           <h3 className="ml-5 cursor-pointer">Workshops</h3>
-          <Link href='/poster-paper-presentation'>
-          <h3 className="ml-5 cursor-pointer">Poster / Paper Presentation</h3>
+          <Link href="/poster-paper-presentation">
+            <h3 className="ml-5 cursor-pointer">Poster / Paper Presentation</h3>
           </Link>
           <h3 className="ml-5 cursor-pointer">Contact Us</h3>
         </div>
@@ -49,10 +49,11 @@ const Navbar = () => {
           </h3>
         </Link>
         <h3 className="cursor-pointer bg-black px-10 my-1">Workshops</h3>
-        <h3 className="cursor-pointer bg-black px-2 my-1">
-          Poster / Paper Presentation
-        </h3>
-
+        <Link href="/poster-paper-presentation">
+          <h3 className="cursor-pointer bg-black px-2 my-1">
+            Poster / Paper Presentation
+          </h3>
+        </Link>
         <h3 className="cursor-pointer bg-black px-10 my-1">Contact Us</h3>
       </div>
     </>
