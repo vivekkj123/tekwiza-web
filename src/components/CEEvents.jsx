@@ -11,22 +11,23 @@ const CEEvents = () => {
         <EventCard
           name={"Build it High!"}
           image={comingSoon}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/build-it-high"}
         />
         <EventCard
           name={"CAD Mania"}
           image={comingSoon}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/cad-mania"}
         />
         <EventCard
           name={"Clueminati"}
           image={comingSoon}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/clueminati"}
+
         />
         <EventCard
           name={"Neon Football"}
           image={comingSoon}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/neon-football"}
         />
       </div>
     </>

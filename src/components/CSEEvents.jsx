@@ -17,17 +17,17 @@ const CSEEvents = () => {
         <EventCard
           name={"Zypher"}
           image={comingSoon}
-          // link={"https://tekothon.in/home"}
+          link={"/events/zypher"}
         />
         <EventCard
           name={"TomorrowLand"}
           image={comingSoon}
-          // link={"https://tekothon.in/home"}
+          link={"/events/tomorrow-land"}
         />
         <EventCard
           name={"Arcade"}
           image={comingSoon}
-          // link={"https://tekothon.in/home"}
+          link={"/events/arcade"}
         />
       </div>
     </>

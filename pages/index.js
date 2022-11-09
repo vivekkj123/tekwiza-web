@@ -4,7 +4,7 @@ import Navbar from "../src/components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <Navbar />
       <Hero />
     </div>
