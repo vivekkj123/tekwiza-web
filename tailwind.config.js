@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ["Montserrat", "sans-serif"],
+        mono:  ['VT323', 'monospace']
       },
     },
   },

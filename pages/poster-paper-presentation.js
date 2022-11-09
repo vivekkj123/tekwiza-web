@@ -15,7 +15,7 @@ const PosterPaperPresentation = () => {
       <PageHeader title={"Poster/Paper Presentation"} />
       <div className="font-display text-xs px-2 lg:px-20">
         <div className="grid lg:grid-cols-2 py-5 ">
-          <div className="py-5 Description leading-5 p-4">
+          <div className="py-5 Description font-thin leading-5 p-4">
             <p>
               We are glad to inform you that our College is organizing TEKWIZA –
               the annual Techfest on 2nd and 3rd December 2022 at the college

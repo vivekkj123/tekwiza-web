@@ -1,6 +1,5 @@
 import React from "react";
 import EventCard from "./EventCard";
-import comingSoon from "../../public/images/Events/coming-soon.jpg";
 import EventSeperator from "./EventSeperator";
 import codeBlue from "../../public/images/Events/Code Blue.png";
 import mysterio from "../../public/images/Events/Mysterio.jpg";
@@ -16,17 +15,17 @@ const BMEvents = () => {
         <EventCard
           name={"Code Blue"}
           image={codeBlue}
-          //   link={"https://tekothon.in/home"}
+            link={"/events/code-blue"}
         />
         <EventCard
           name={"Mysterio"}
           image={mysterio}
-          //   link={"https://tekothon.in/home"}
+            link={"/events/mysterio"}
         />
         <EventCard
           name={"Ojingo"}
           image={ojingo}
-          //   link={"https://tekothon.in/home"}
+            link={"/events/ojingo"}
         />
         <EventCard
           name={"Salvatore"}
