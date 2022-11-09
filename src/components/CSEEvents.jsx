@@ -2,6 +2,7 @@ import React from "react";
 import EventCard from "./EventCard";
 import tekothon from "../../public/images/Events/tekothon.png";
 import EventSeperator from "./EventSeperator";
+import comingSoon from '../../public/images/Events/coming-soon.jpg'
 
 const CSEEvents = () => {
   return (
@@ -12,6 +13,21 @@ const CSEEvents = () => {
           name={"Tek-O-Thon"}
           image={tekothon}
           link={"https://tekothon.in/home"}
+        />
+        <EventCard
+          name={"Zypher"}
+          image={comingSoon}
+          // link={"https://tekothon.in/home"}
+        />
+        <EventCard
+          name={"TomorrowLand"}
+          image={comingSoon}
+          // link={"https://tekothon.in/home"}
+        />
+        <EventCard
+          name={"Arcade"}
+          image={comingSoon}
+          // link={"https://tekothon.in/home"}
         />
       </div>
     </>

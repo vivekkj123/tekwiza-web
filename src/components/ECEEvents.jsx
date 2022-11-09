@@ -23,11 +23,11 @@ const ECEEvents = () => {
           image={comingSoon}
           //   link={"https://tekothon.in/home"}
         />
-        <EventCard
+        {/* <EventCard
           name={"Robo Keeper"}
           image={comingSoon}
           //   link={"https://tekothon.in/home"}
-        />
+        /> */}
       </div>
     </>
   );

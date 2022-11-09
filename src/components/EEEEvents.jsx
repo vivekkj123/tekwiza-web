@@ -9,7 +9,22 @@ const EEEEvents = () => {
       <EventSeperator Header={"Electrical & Electronics Events"} />
       <div className="EventGallery grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center lg:px-10">
         <EventCard
-          name={"Coming Soon"}
+          name={"FiE"}
+          image={comingSoon}
+          //   link={"https://tekothon.in/home"}
+        />
+         <EventCard
+          name={"Glade Greever"}
+          image={comingSoon}
+          //   link={"https://tekothon.in/home"}
+        />
+         <EventCard
+          name={"TechArcade"}
+          image={comingSoon}
+          //   link={"https://tekothon.in/home"}
+        />
+        <EventCard
+          name={"Halo"}
           image={comingSoon}
           //   link={"https://tekothon.in/home"}
         />
