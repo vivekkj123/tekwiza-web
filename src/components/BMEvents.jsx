@@ -4,7 +4,7 @@ import EventSeperator from "./EventSeperator";
 import codeBlue from "../../public/images/Events/Code Blue.png";
 import mysterio from "../../public/images/Events/Mysterio.jpg";
 import ojingo from "../../public/images/Events/Ojingo.png";
-import salvatore from "../../public/images/Events/Salvadore.png";
+import salvator from "../../public/images/Events/Salvadore.png";
 import illusion from "../../public/images/Events/The Illusion.jpg";
 
 const BMEvents = () => {
@@ -28,14 +28,14 @@ const BMEvents = () => {
             link={"/events/ojingo"}
         />
         <EventCard
-          name={"Salvatore"}
-          image={salvatore}
-          //   link={"https://tekothon.in/home"}
+          name={"Salvator"}
+          image={salvator}
+          link={"/events/salvator"}
         />
         <EventCard
           name={"The Illusion"}
           image={illusion}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/the-illusion'}
         />
       </div>
     </>

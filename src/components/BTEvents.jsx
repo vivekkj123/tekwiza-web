@@ -15,22 +15,25 @@ const BTEvents = () => {
         <EventCard
           name={"Turn Inside Out"}
           image={TurnInsideOut}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/turn-inside-out"}
+
         />
         <EventCard
           name={"Snake-O-Mystery"}
           image={SnakeOMystery}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/snake-o-mystery"}
+
         />
          <EventCard
           name={"Pipette By Numbers"}
           image={PipetteByNos}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/pipette-by-numbers"}
+
         />
         <EventCard
           name={"SCRIOS"}
           image={Scrios}
-        //   link={"https://tekothon.in/home"}
+          link={"/events/scrios"}
         />
       </div>
     </>
