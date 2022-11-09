@@ -11,23 +11,20 @@ const ECEEvents = () => {
         <EventCard
           name={"BotStrife"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/bot-strife'}
         />
         <EventCard
           name={"Automaze"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/automaze'}
+
         />
         <EventCard
           name={"Qark Fento"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/qark-fento'}
+
         />
-        {/* <EventCard
-          name={"Robo Keeper"}
-          image={comingSoon}
-          //   link={"https://tekothon.in/home"}
-        /> */}
       </div>
     </>
   );

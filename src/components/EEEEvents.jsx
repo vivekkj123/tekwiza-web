@@ -11,22 +11,22 @@ const EEEEvents = () => {
         <EventCard
           name={"FiE"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/fie'}
         />
          <EventCard
           name={"Glade Greever"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/glade-greever'}
         />
          <EventCard
           name={"TechArcade"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/tech-arcade'}
         />
         <EventCard
           name={"Halo"}
           image={comingSoon}
-          //   link={"https://tekothon.in/home"}
+          link={'/events/halo'}
         />
       </div>
     </>
