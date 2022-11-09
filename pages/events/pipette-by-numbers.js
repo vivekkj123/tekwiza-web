@@ -41,8 +41,8 @@ const PipetteByNos = () => {
           </div>
           <Image className="h-46 w-auto" src={PipetteByNosImage} />
         </div>
-        <div className="flex text-white   justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-48">
+        <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -52,7 +52,7 @@ const PipetteByNos = () => {
               <p className="text-xs">Chemical Engineering Lab</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-48">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
 
             <div className="flex  mt-5">
@@ -60,9 +60,9 @@ const PipetteByNos = () => {
               <p className="text-xs">Registration Fee: Rs.70/-</p>
             </div>
             <br />
-            <p className="bg-white text-black px-3">Spot Registration</p>
+            <p className="bg-white text-black text-center px-3">Spot Registration</p>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-48">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>

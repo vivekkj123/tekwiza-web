@@ -21,15 +21,15 @@ const Scrios = () => {
       <Head>
         <title>Scrios | TekWiza 2k22</title>
       </Head>
-      <div className="bg-black  overflow-hidden h-full">
+      <div className="bg-black h-full">
         <Navbar />
         <PageHeader title={"Scrios"} />
-        <div className="  font-display grid gap-4 py-5 px-2 lg:px-12 lg:grid-cols-2">
+        <div className="font-display grid gap-4 py-5 px-2 lg:px-12 lg:grid-cols-2">
           <div className="flex items-center font-thin mx-2 lg:mx-6">
-            <p>
+            <p className="">
               Pick up the gun, drop the paint & have a blast!
               <br />
-              <span className="font-bold">ACTION….EXCITEMENT….ADVENTURE</span>
+              <span className="font-bold">ACTION... EXCITEMENT... ADVENTURE...</span>
               <br />
               The game focuses on teamwork and strategy combined with pure,
               adrenaline-pumping fun which makes it an unforgettable experience.
@@ -45,8 +45,8 @@ const Scrios = () => {
           </div>
           <Image className="h-46 w-auto" src={ScriosImage} />
         </div>
-        <div className="flex text-white   justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-48">
+        <div className="flex lg:flex-row flex-col text-white items-center  lg:justify-around">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -56,7 +56,7 @@ const Scrios = () => {
               <p className="text-xs">Ground</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-48">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
             <p className="mt-3 text-xs">5 members</p>
 
@@ -71,7 +71,7 @@ const Scrios = () => {
               </div>
             </Link>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-48">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>
