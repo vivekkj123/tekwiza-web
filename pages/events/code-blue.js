@@ -7,12 +7,17 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
-import React from "react";
+import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import CodeBlueImage from "/public/images/Events/Code Blue.png";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const CodeBlue = () => {
+  useEffect(()=> {
+    Aos.init({duration: 500})
+  },[]);
   return (
     <>
       <Head>
@@ -32,7 +37,7 @@ const CodeBlue = () => {
           <Image className="h-46 w-auto" src={CodeBlueImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48" data-aos="fade-right" data-aos-delay="50">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
