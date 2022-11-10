@@ -5,6 +5,7 @@ import {
   faMapMarker,
   faMapMarkerAlt,
   faPhone,
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -38,6 +39,20 @@ const SnakeOMystery = () => {
               <br />
               All participants shall receive Certificate of Participation worth
               KTU activity points via the registered mail.
+              <table className="table-auto mx-auto my-5 text-center border-white border-2">
+                <thead className="border-b-white border-b-2">
+                  <tr>
+                    <th className="px-4 py-2">
+                      <FontAwesomeIcon className="mx-2" icon={faTrophy} />
+                      Prize Money Worth</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td  className="px-4 py-2">Rs. 1000/-</td>
+                  </tr>
+                </tbody>
+              </table>
             </p>
           </div>
           <Image className="h-46 w-auto" src={SnakeOMysteryImage} />

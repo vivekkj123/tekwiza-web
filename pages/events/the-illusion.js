@@ -27,6 +27,7 @@ const TheIllusion = () => {
               simply by providing the audience with incredibly realistic
               sound,imaginery and drive them to a completely different
               atmosphere and location.
+              
             </p>
           </div>
           <Image className="h-46 w-auto" src={IllusionImage} />

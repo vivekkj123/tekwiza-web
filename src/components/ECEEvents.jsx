@@ -1,4 +1,4 @@
-git commit commit import React from "react";
+import React from "react";
 import EventCard from "./EventCard";
 import comingSoon from "../../public/images/Events/coming-soon.jpg";
 import EventSeperator from "./EventSeperator";
