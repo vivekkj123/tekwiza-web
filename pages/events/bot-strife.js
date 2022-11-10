@@ -5,6 +5,7 @@ import {
   faMapMarker,
   faMapMarkerAlt,
   faPhone,
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -36,6 +37,30 @@ const BotStrife = () => {
               robot whose task is to push the opposing robot out of the circular
               ring or flip it over. Different robots compete one-on-one against
               each other in a knock-out tournament.
+              <table className="table-auto mx-auto my-5 text-center border-white border-2">
+                <thead className="border-b-white border-b-2">
+                  <tr>
+                    <th>
+                      <FontAwesomeIcon className="mx-2" icon={faTrophy} />
+                    </th>
+                    <th className="px-4 py-2">Prize Money</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className=" border-b-2">
+                    <td className="py-2 px-2 w-6">
+                      1 <sup>st</sup>
+                    </td>
+                    <td className="px-2 py-2">Rs. 10,000/-</td>
+                  </tr>
+                  <tr className=" border-b-2">
+                    <td className="py-2 px-2 w-6">
+                      2<sup>nd</sup>
+                    </td>
+                    <td className="px-2 py-2">Rs. 5,000/-</td>
+                  </tr>
+                </tbody>
+              </table>
             </p>
           </div>
           {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}

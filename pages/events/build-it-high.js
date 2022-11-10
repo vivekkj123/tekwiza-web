@@ -5,6 +5,7 @@ import {
   faMapMarker,
   faMapMarkerAlt,
   faPhone,
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -38,6 +39,30 @@ const BuildItHigh = () => {
               Materials to build structures will be provided. Groups of a
               maximum of 4 members can be formed. A certificate of participation
               will be provided.
+              <table className="table-auto mx-auto my-5 text-center border-white border-2">
+                <thead className="border-b-white border-b-2">
+                  <tr>
+                    <th>
+                      <FontAwesomeIcon className="mx-2" icon={faTrophy} />
+
+                    </th>
+                    <th className="px-4 py-2">
+                      Prize Money</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className=" border-b-2">
+                    
+                  <td  className="py-2 px-2 w-6">1 <sup>st</sup></td>
+                    <td  className="px-2 py-2">Rs. 3000/-</td>
+                  </tr>
+                  <tr>
+                    
+                  <td  className="py-2 px-2 w-6">2<sup>nd</sup></td>
+                    <td  className="px-2 py-2">Rs. 2000/-</td>
+                  </tr>
+                </tbody>
+              </table>
             </p>
           </div>
           {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}

@@ -2,6 +2,7 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -26,6 +27,20 @@ const Salvator = () => {
               A Newly joined Doctor is asked to rescue his dying patient from a
               deserted hospital full of uncertain strenuous paths. Put on your
               Coat to solve the mystery and extricate your patient.
+              <table className="table-auto mx-auto my-5 text-center border-white border-2">
+                <thead className="border-b-white border-b-2">
+                  <tr>
+                    <th className="px-4 py-2">
+                      <FontAwesomeIcon className="mx-2" icon={faTrophy} />
+                      Prize Money Worth</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td  className="px-4 py-2">Rs. 2000/-</td>
+                  </tr>
+                </tbody>
+              </table>
             </p>
           </div>
           <Image className="h-46 w-auto" src={SalvatorImage} />

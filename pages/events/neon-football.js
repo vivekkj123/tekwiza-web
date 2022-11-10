@@ -32,6 +32,7 @@ const NeonFootball = () => {
               an all-out competitive spirit. Participants are expected to form a
               group of 8 members (max) which will be split into 2 teams. The
               duration of a match will be 10 minutes.
+              
             </p>
           </div>
           {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}
