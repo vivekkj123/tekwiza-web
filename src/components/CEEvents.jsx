@@ -2,6 +2,8 @@ import React from "react";
 import EventCard from "./EventCard";
 import comingSoon from "../../public/images/Events/coming-soon.jpg";
 import EventSeperator from "./EventSeperator";
+import ClueMinatiImage from '../../public/images/Events/clueminati.jpeg'
+import NeonFootballImage from '../../public/images/Events/neon-football.jpeg'
 
 const CEEvents = () => {
   return (
@@ -20,13 +22,13 @@ const CEEvents = () => {
         />
         <EventCard
           name={"Clueminati"}
-          image={comingSoon}
+          image={ClueMinatiImage}
           link={"/events/clueminati"}
 
         />
         <EventCard
           name={"Neon Football"}
-          image={comingSoon}
+          image={NeonFootballImage}
           link={"/events/neon-football"}
         />
       </div>

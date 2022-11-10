@@ -1,9 +1,6 @@
 import {
   faIndianRupeeSign,
-  faLocation,
   faMapMarkedAlt,
-  faMapMarker,
-  faMapMarkerAlt,
   faPhone,
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +11,7 @@ import Link from "next/link";
 import React from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import CluieminatiImage from "/public/images/Events/Snake-O-Mystery.png";
+import ClueMinatiImage from '../../public/images/Events/clueminati.jpeg'
 
 const Cluieminati = () => {
   return (
@@ -61,7 +58,7 @@ const Cluieminati = () => {
               </table>
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}
+          <Image className="h-46 w-auto" src={ClueMinatiImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
