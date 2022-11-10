@@ -1,19 +1,16 @@
 import {
   faIndianRupeeSign,
-  faLocation,
   faMapMarkedAlt,
-  faMapMarker,
-  faMapMarkerAlt,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
+import GladeGreeverImage from "../../public/images/Events/The Glade[EEE Event 2].png";
+
 
 const GladeGreever = () => {
   return (
@@ -31,7 +28,7 @@ const GladeGreever = () => {
               to find you way out of the ever-changing labyrinth.
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}
+          <Image className="h-46 w-auto" src={GladeGreeverImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
