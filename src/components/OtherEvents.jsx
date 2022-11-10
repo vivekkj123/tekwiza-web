@@ -1,7 +1,7 @@
 import React from "react";
 import EventCard from "./EventCard";
 import EventSeperator from "./EventSeperator";
-import posterpaperImage from '../../public/images/Events/poster_paper.jpg'
+import posterpaperImage from '../../public/images/Events/paper-poster-02.jpeg'
 
 const OtherEvents = () => {
   return (
