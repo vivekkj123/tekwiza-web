@@ -5,7 +5,7 @@ import Navbar from "../src/components/Navbar";
 const Home = () => {
   return (
     <div className="h-screen w-screen">
-      <Navbar />
+      <Navbar className="Animationslide"/>
       <Hero />
     </div>
   );

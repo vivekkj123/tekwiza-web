@@ -37,3 +37,31 @@ body {
   width: 100vw;
   z-index: -1;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(228, 228, 228, 0.822);
+  transform-origin: 0%;
+}
+
+
+/* .Animationslide{
+  animation-name: sildedown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.15, 0.9, 0.3, 1.04);
+}
+
+@keyframes sildedown {
+  0% {
+    -webkit-transform: translateY(-80px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+
+} */
