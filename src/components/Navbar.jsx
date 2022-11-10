@@ -29,9 +29,6 @@ const Navbar = () => {
           <Link href="/workshops">
             <h3 className="ml-5 cursor-pointer">Workshops</h3>
           </Link>
-          <Link href="/poster-paper-presentation">
-            <h3 className="ml-5 cursor-pointer">Poster / Paper Presentation</h3>
-          </Link>
           <Link href="/contact-us">
             <h3 className="ml-5 cursor-pointer">Contact Us</h3>
           </Link>
@@ -54,11 +51,6 @@ const Navbar = () => {
         </Link>
         <Link href="/workshops">
           <h3 className="cursor-pointer bg-black px-10 my-1">Workshops</h3>
-        </Link>
-        <Link href="/poster-paper-presentation">
-          <h3 className="cursor-pointer bg-black px-2 my-1">
-            Poster / Paper Presentation
-          </h3>
         </Link>
         <Link href="/contact-us">
           <h3 className="cursor-pointer bg-black px-10 my-1">Contact Us</h3>

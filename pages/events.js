@@ -8,6 +8,7 @@ import ECEEvents from "../src/components/ECEEvents";
 import CEEvents from "../src/components/CEEvents";
 import BMEvents from "../src/components/BMEvents";
 import EEEEvents from "../src/components/EEEEvents";
+import OtherEvents from "../src/components/OtherEvents";
 
 const Events = () => {
   return (
@@ -24,6 +25,7 @@ const Events = () => {
         <CSEEvents />
         <EEEEvents />
         <ECEEvents />
+        <OtherEvents />
       </div>
     </>
   );
