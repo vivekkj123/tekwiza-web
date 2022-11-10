@@ -2,6 +2,8 @@ import React from "react";
 import EventCard from "./EventCard";
 import comingSoon from "../../public/images/Events/coming-soon.jpg";
 import EventSeperator from "./EventSeperator";
+import botStrifeImage from '../../public/images/Events/BotStrife.png'
+import automazeImage from '../../public/images/Events/automaze.jpg'
 
 const ECEEvents = () => {
   return (
@@ -10,12 +12,12 @@ const ECEEvents = () => {
       <div className="EventGallery grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center lg:px-10">
         <EventCard
           name={"BotStrife"}
-          image={comingSoon}
+          image={botStrifeImage}
           link={'/events/bot-strife'}
         />
         <EventCard
           name={"Automaze"}
-          image={comingSoon}
+          image={automazeImage}
           link={'/events/automaze'}
 
         />

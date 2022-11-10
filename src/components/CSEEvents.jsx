@@ -1,8 +1,10 @@
 import React from "react";
 import EventCard from "./EventCard";
 import tekothon from "../../public/images/Events/tekothon.png";
+import zypher from "../../public/images/Events/Zypher.png";
+import arcade from "../../public/images/Events/CSArcade.png";
+import tomorrowLand from "../../public/images/Events/TomorrowLand.png";
 import EventSeperator from "./EventSeperator";
-import comingSoon from '../../public/images/Events/coming-soon.jpg'
 
 const CSEEvents = () => {
   return (
@@ -16,17 +18,17 @@ const CSEEvents = () => {
         />
         <EventCard
           name={"Zypher"}
-          image={comingSoon}
+          image={zypher}
           link={"/events/zypher"}
         />
         <EventCard
           name={"TomorrowLand"}
-          image={comingSoon}
+          image={tomorrowLand}
           link={"/events/tomorrow-land"}
         />
         <EventCard
           name={"Arcade"}
-          image={comingSoon}
+          image={arcade}
           link={"/events/arcade"}
         />
       </div>
