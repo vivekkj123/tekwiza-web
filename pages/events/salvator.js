@@ -7,12 +7,17 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
-import React from "react";
+import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import SalvatorImage from "../../public/images/Events/Salvadore.png";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Salvator = () => {
+  useEffect(()=> {
+    Aos.init({duration: 500})
+  },[]);
   return (
     <>
       <Head>
@@ -27,7 +32,7 @@ const Salvator = () => {
               A Newly joined Doctor is asked to rescue his dying patient from a
               deserted hospital full of uncertain strenuous paths. Put on your
               Coat to solve the mystery and extricate your patient.
-              <table className="table-auto mx-auto my-5 text-center border-white border-2">
+              <table className="table-auto mx-auto my-5 text-center border-white border-2" data-aos="zoom-in" >
                 <thead className="border-b-white border-b-2">
                   <tr>
                     <th className="px-4 py-2">
@@ -46,7 +51,7 @@ const Salvator = () => {
           <Image className="h-46 w-auto" src={SalvatorImage} />
         </div>
         <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
+          <div className="h-auto border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -56,16 +61,13 @@ const Salvator = () => {
               <p className="text-xs">Bio Block (211)</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:lg:w-48">
+          <div className="h-auto border-2 mx-4 border-white py-7 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:lg:w-48" data-aos="fade-right" data-aos-delay="100">
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
             <p className="mt-3 text-xs">2 members</p>
 
-            <div className="flex  mt-5">
-              <FontAwesomeIcon className="mx-2" icon={faIndianRupeeSign} />
-              <p className="text-xs">Registration Fee: 100/-</p>
-            </div>
+            <div className="register h-auto my-2 py-2 px-2 flex "><div className="circle"></div> <p className="register-fee">FEE</p><div></div><FontAwesomeIcon className="mx-2 text-black" icon={faIndianRupeeSign} /><p className="text-black price ">100<span>/-</span></p></div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:lg:w-48">
+          <div className="h-auto border-2 mx-4 border-white py-3 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:lg:w-48" data-aos="fade-right" data-aos-delay="150">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>

@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useEffect }from "react";
 import Navbar from "../src/components/Navbar";
 import Head from "next/head";
 import PageHeader from "../src/components/PageHeader";
@@ -8,9 +8,18 @@ import ECEEvents from "../src/components/ECEEvents";
 import CEEvents from "../src/components/CEEvents";
 import BMEvents from "../src/components/BMEvents";
 import EEEEvents from "../src/components/EEEEvents";
+
 import OtherEvents from "../src/components/OtherEvents";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+
 const Events = () => {
+
+    useEffect(()=> {
+      Aos.init({duration: 600})
+    },[]);
   return (
     <>
       <Head>
@@ -26,6 +35,25 @@ const Events = () => {
         <EEEEvents />
         <ECEEvents />
         <OtherEvents />
+
+        <div >
+          <BMEvents  />
+        </div>
+        <div data-aos="fade-down">
+          <BTEvents />
+        </div>
+        <div data-aos="fade-down">
+          <CEEvents />
+        </div>
+        <div data-aos="fade-down">
+          <CSEEvents />
+        </div>
+        <div data-aos="fade-down">
+          <EEEEvents />
+        </div>
+        <div data-aos="fade-down">
+          <ECEEvents />
+        </div>
       </div>
     </>
   );

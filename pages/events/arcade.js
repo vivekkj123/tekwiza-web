@@ -7,13 +7,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+
 import ArcadeImage from '../../public/images/Events/CSArcade.png'
 import React from "react";
+
+import React , { useEffect }from "react";
+
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 //   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
 
 const Arcade = () => {
+  useEffect(()=> {
+    Aos.init({duration: 500})
+  },[]);
   return (
     <>
       <Head>
@@ -36,7 +45,7 @@ const Arcade = () => {
           <Image className="h-46 w-auto" src={ArcadeImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40 ">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40 " data-aos="fade-right" >
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -46,7 +55,7 @@ const Arcade = () => {
               <p className="text-xs">Decennial Block (215)</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="100">
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
 
             <div className="flex  mt-5">
@@ -55,7 +64,7 @@ const Arcade = () => {
             </div>
             <br />
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:lg:lg:w-48 w-40">
+          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:lg:lg:w-48 w-40" data-aos="fade-right" data-aos-delay="150">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>
