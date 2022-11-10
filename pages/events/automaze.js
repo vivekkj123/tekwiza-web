@@ -9,17 +9,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-
 import automazeImage from '../../public/images/Events/automaze.jpg'
-import React from "react";
-
 import React , { useEffect }from "react";
-
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
 
 const AutoMaze = () => {
   useEffect(()=> {
@@ -101,9 +96,6 @@ const AutoMaze = () => {
             <div className="register h-auto my-2 py-2 px-2 flex "><div className="circle"></div> <p className="register-fee">FEE</p><div></div><FontAwesomeIcon className="mx-2 text-black" icon={faIndianRupeeSign} /><p className="text-black price ">2000<span>/-</span></p></div>
             
             <Link href={"https://forms.gle/31NceBVXFM2SfCXS9"}>
-
-              <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2">
-                 Now
 
               <div className="text-center cursor-pointer rounded-lg mx-2 my-2 button font-mono bg-white text-black px-4 lg:px-5 py-2">
                 Register Now

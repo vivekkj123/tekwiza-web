@@ -11,10 +11,7 @@ import Link from "next/link";
 import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-
 import ClueMinatiImage from '../../public/images/Events/clueminati.jpeg'
-
-//   import CluieminatiImage from "/public/images/Events/Snake-O-Mystery.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

@@ -1,8 +1,5 @@
 import {
-  faLocation,
   faMapMarkedAlt,
-  faMapMarker,
-  faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";

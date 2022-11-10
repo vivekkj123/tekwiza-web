@@ -8,12 +8,9 @@ import ECEEvents from "../src/components/ECEEvents";
 import CEEvents from "../src/components/CEEvents";
 import BMEvents from "../src/components/BMEvents";
 import EEEEvents from "../src/components/EEEEvents";
-
 import OtherEvents from "../src/components/OtherEvents";
-
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
 
 const Events = () => {
 
@@ -28,14 +25,6 @@ const Events = () => {
       <div className="h-max overflow-hidden z-20 bg-black Events">
         <Navbar />
         <PageHeader title={"TekWiza Events"} />
-        <BMEvents />
-        <BTEvents />
-        <CEEvents />
-        <CSEEvents />
-        <EEEEvents />
-        <ECEEvents />
-        <OtherEvents />
-
         <div >
           <BMEvents  />
         </div>
@@ -53,6 +42,9 @@ const Events = () => {
         </div>
         <div data-aos="fade-down">
           <ECEEvents />
+        </div>
+        <div data-aos="fade-down">
+          <OtherEvents />
         </div>
       </div>
     </>

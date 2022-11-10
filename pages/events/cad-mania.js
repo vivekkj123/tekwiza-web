@@ -1,9 +1,6 @@
 import {
   faIndianRupeeSign,
-  faLocation,
   faMapMarkedAlt,
-  faMapMarker,
-  faMapMarkerAlt,
   faPhone,
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +11,6 @@ import Link from "next/link";
 import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import CadManiaImage from "/public/images/Events/Snake-O-Mystery.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

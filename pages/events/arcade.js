@@ -7,17 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-
 import ArcadeImage from '../../public/images/Events/CSArcade.png'
-import React from "react";
-
 import React , { useEffect }from "react";
-
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
 
 const Arcade = () => {
   useEffect(()=> {

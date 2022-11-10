@@ -1,9 +1,6 @@
 import {
   faIndianRupeeSign,
-  faLocation,
   faMapMarkedAlt,
-  faMapMarker,
-  faMapMarkerAlt,
   faPhone,
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";

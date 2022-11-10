@@ -7,15 +7,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-
 import TomorrowLandImage from '../../public/images/Events/TomorrowLand.png'
-import React from "react";
-
 import React , { useEffect }from "react";
-
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
