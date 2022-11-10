@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../src/components/Navbar";
-import EventSeperator from "../src/components/EventSeperator";
 import Head from "next/head";
 import PageHeader from "../src/components/PageHeader";
 import CSEEvents from "../src/components/CSEEvents";
