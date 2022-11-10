@@ -3,72 +3,42 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
-import automazeImage from '../../public/images/Events/automaze.jpg'
 import React from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
-
-const AutoMaze = () => {
+import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
+import Link from "next/link";
+const IBot = () => {
   return (
     <>
       <Head>
-        <title>AutoMaze | TekWiza 2k22</title>
+        <title>IBot Workshop | TekWiza 2k22</title>
       </Head>
       <div className="bg-black  overflow-hidden h-full">
         <Navbar />
-        <PageHeader title={"AutoMaze"} />
+        <PageHeader title={"IBot"} />
         <div className="  font-display grid gap-4 py-5 px-2 lg:px-12 lg:grid-cols-2">
           <div className="flex items-center font-thin mx-2 lg:mx-6">
             <p>
-              RC cars and trucks look more realistic than ever, but until we’re
-              all driving electric full-scale cars, battery-powered models are
-              still highly unrealistic in the way they’re powered. For a truly
-              realistic RC experience, nothing beats driving an RC machine with
-              a real piston-pounding, fuel-burning engine under the body.
+              Have you ever dreamed of building your own machine in the
+              constantly-expanding world of technology?
               <br />
-              The participants must function as a team to design, engineer,
-              build, test, promote and compete with an advanced race track.
               <br />
-              “Life without RACING is like an unshaped pencil….. there’s no
-              point”.
+              The day you’ve been looking forward to has finally arrived!!!
               <br />
-              <span className="font-bold">
-                RACE IT *BREAK IT * FIX IT * REPEAT
-              </span>
-              <table className="table-auto mx-auto my-5 text-center border-white border-2">
-                <thead className="border-b-white border-b-2">
-                  <tr>
-                    <th>
-                      <FontAwesomeIcon className="mx-2" icon={faTrophy} />
-                    </th>
-                    <th className="px-4 py-2">Prize Money</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className=" border-b-2">
-                    <td className="py-2 px-2 w-6">
-                      1 <sup>st</sup>
-                    </td>
-                    <td className="px-2 py-2">Rs. 40,000/-</td>
-                  </tr>
-                  <tr className=" border-b-2">
-                    <td className="py-2 px-2 w-6">
-                      2<sup>nd</sup>
-                    </td>
-                    <td className="px-2 py-2">Rs. 20,000/-</td>
-                  </tr>
-                </tbody>
-              </table>
+              <br />
+              TEKWIZA offers the{" "}
+              <span className="font-bold">“Intelligent Robotics”</span>{" "}
+              workshop, where you may learn everything there is to know and
+              create the most amazing devices. Seize this fantastic opportunity
+              to be the driving force that brought humanity to its zenith.
             </p>
           </div>
-          <Image className="h-46 w-auto" src={automazeImage} />
+          {/* <Image className="h-46 w-auto" src={BioEnterpreneurshipImage} /> */}
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
@@ -77,11 +47,11 @@ const AutoMaze = () => {
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faClock} />
-              <p className="text-xs">2:00 PM</p>
+              <p className="text-xs">9:00 AM - 1:00 PM</p>
             </div>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />
-              <p className="text-xs">Basket Ball Court</p>
+              <p className="text-xs">Accenture Lab</p>
             </div>
           </div>
           <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
@@ -89,14 +59,18 @@ const AutoMaze = () => {
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faIndianRupeeSign} />
-              <p className="text-xs">Registration Fee: Rs.2000/-</p>
+              <p className="text-xs">Registration Fee: Rs.500/-</p>
             </div>
             <br />
-            <Link href={"https://forms.gle/31NceBVXFM2SfCXS9"}>
+            {/* <Link
+              href={
+                "https://docs.google.com/forms/d/e/1FAIpQLSfeSLNV4apogcZwLTCD73cmK104GPExssmIwQ9qsipQ8MVs9g/viewform?usp=sf_link"
+              }
+            >
               <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2">
-                 Now
+                Register Now
               </div>
-            </Link>
+            </Link> */}
             <br />
           </div>
           <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
@@ -106,11 +80,11 @@ const AutoMaze = () => {
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faPhone} />
-              <p className="text-xs"> Shalvin P A - 9745337457</p>
+              <p className="text-xs">Abhishek M A - 9744706995</p>
             </div>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faPhone} />
-              <p className="text-xs"> Manukrishna - 7994380504</p>
+              <p className="text-xs">Sharon Rose - 7012522679</p>
             </div>
           </div>
         </div>
@@ -119,4 +93,4 @@ const AutoMaze = () => {
   );
 };
 
-export default AutoMaze;
+export default IBot;
