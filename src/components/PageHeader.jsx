@@ -6,7 +6,7 @@ const PageHeader = ({ title }) => {
     <div className="h-30 py-2 lg:py-6 border-gray-900 border-2 text-2xl lg:text-4xl items-center px-4 lg:px-20">
       {title.split(" ").map((t) => (
         <>
-        <motion.div initial="hidden" animate="visible" variants={{
+        <motion.div key={t} initial="hidden" animate="visible" variants={{
         hidden: {
           scale: .8,
           opacity: 0
@@ -19,7 +19,7 @@ const PageHeader = ({ title }) => {
           }
         },
         }}>
-          <h2 key={t}>{t}</h2>
+          <h2>{t}</h2>
         </motion.div>
           
         </>

@@ -10,8 +10,9 @@ import Image from "next/image";
 import React from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
 import Link from "next/link";
+import IbotImage from "../../public/images/Workshops/IBot wrk.jpg";
+
 const IBot = () => {
   return (
     <>
@@ -38,7 +39,7 @@ const IBot = () => {
               to be the driving force that brought humanity to its zenith.
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={BioEnterpreneurshipImage} /> */}
+          <Image className="h-46 w-auto" src={IbotImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">

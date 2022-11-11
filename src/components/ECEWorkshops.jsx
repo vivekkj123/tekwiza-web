@@ -1,7 +1,7 @@
 import React from "react";
 import EventCard from "./EventCard";
 import EventSeperator from "./EventSeperator";
-import comingSoon from '../../public/images/Events/coming-soon.jpg'
+import IbotImage from '../../public/images/Workshops/IBot wrk.jpg'
 
 const ECEWorkshops = () => {
   return (
@@ -10,7 +10,7 @@ const ECEWorkshops = () => {
       <div className="EventGallery grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center lg:px-10">
         <EventCard
           name={"IBot"}
-          image={comingSoon}
+          image={IbotImage}
           link={"/workshops/ibot"}
 
         />
