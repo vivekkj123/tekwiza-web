@@ -26,7 +26,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="quickLinks">
-          <h2 className="text-center lg:mt-0 mt-3">Quick Links</h2>
+          <h2 className="text-center text-lg lg:mt-0 mt-3">Quick Links</h2>
           <div className="grid mt-4 grid-cols-2 text-center">
             <div>
               <Link
@@ -59,14 +59,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="GetTouch text-center ">
-          <h2 className="mt-4 lg:mt-0">Get In Touch</h2>
+          <h2 className="mt-4 text-lg lg:mt-0">Get In Touch</h2>
           <Link
             className="hover:underline pink decoration-purple-600 underline-offset-4"
-            href={"emailto:tekwiza@sahrdaya.ac.in"}
+            href={"mailto:tekwiza@sahrdaya.ac.in"}
           >
             <h4>tekwiza@sahrdaya.ac.in</h4>
           </Link>
-          <h2>FOLLOW US</h2>
+          <h2 className="text-lg">FOLLOW US</h2>
           <div className="socialMediaIcon mt-2">
             <Link href={"https://www.facebook.com/Sahrdaya/</div>"}>
               <FontAwesomeIcon className="mr-2" icon={faFacebook} />

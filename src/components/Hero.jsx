@@ -18,6 +18,7 @@ const Hero = () => {
       </Link>
       
       <h2 className="break-words text-center">December 02, 03 @ Sahrdaya College of Engineering and Technology</h2>
+    
     </div>
     </>
   );

@@ -2,12 +2,16 @@ import React from "react";
 import Footer from "../src/components/Footer";
 import Hero from "../src/components/Hero";
 import Navbar from "../src/components/Navbar";
+import WelcomeSection from "../src/components/WelcomeSection";
+import WhatYouCanExpect from "../src/components/WhatYouCanExpect";
 
 const Home = () => {
   return (
     <div className="h-screen w-screen">
       <Navbar className="Animationslide"/>
       <Hero />
+      <WelcomeSection />
+      <WhatYouCanExpect />
       <Footer />
     </div>
   );
