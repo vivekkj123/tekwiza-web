@@ -1,6 +1,6 @@
-import { faCalendarAlt, faDirections } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import React from "react";
+import posterImage from '../../public/images/poster.png'
 
 const WhatYouCanExpect = () => {
   return (
@@ -15,9 +15,7 @@ const WhatYouCanExpect = () => {
           cupiditate commodi aut!
         </h3>
       </div>
-      <div>
-        
-      </div>
+      <Image className="mx-auto h-80 w-auto" src={posterImage} />
     </div>
   );
 };
