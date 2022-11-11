@@ -16,10 +16,15 @@ const Footer = () => {
     <div className={`${styles.footer} text-sm`}>
       <div className="flex px-2 lg:px-16 lg:flex-row flex-col justify-around items-center py-8">
         <div className="logos flex flex-col justify-center items-center">
-          <Image src={TekWizaLogo} className="h-6 my-2 w-auto" />
+          <Image
+            alt="Tekwiza Logo"
+            src={TekWizaLogo}
+            className="h-6 my-2 w-auto"
+          />
           <p>In Association With</p>
           <Link href={"https://sahrdaya.ac.in"}>
             <Image
+              alt="Sahrdaya Logo"
               className="brightness-0 my-2 h-6 w-auto invert"
               src={scetLogo}
             />

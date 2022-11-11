@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className=" Navbar flex text-white lg:px-7 px-2 py-2 h-12 w-screen justify-between items-center ">
         <div className="LogoContainer flex">
           <Link href={"/"}>
-            <Image className="h-6 lg:h-8 w-auto" src={tekwizaLogo} />
+            <Image alt="Tekwiza Logo" className="h-6 lg:h-8 w-auto" src={tekwizaLogo} />
           </Link>
         </div>
         <div className="lg:hidden">

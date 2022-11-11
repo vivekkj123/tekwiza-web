@@ -4,7 +4,7 @@ import React from "react";
 
 const WhatYouCanExpect = () => {
   return (
-    <div className="px-2 lg:px-10 WhatYouCanExpect items-center my-20 grid grid-cols-1 lg:grid-cols-2">
+    <div className="px-2 lg:px-10 WhatYouCanExpect items-center my-5 grid grid-cols-1 lg:grid-cols-2">
       
       <div className=" bg-slate-900 bg-opacity-30 py-5 rounded-lg px-5">
         <h1 className="text-3xl text-center">What You Can Expect?</h1>

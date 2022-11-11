@@ -11,7 +11,7 @@ const Hero = () => {
         <source src='/videos/bgsynthwave.mp4' type="video/mp4" />
       </video>
     <div className="my-4 flex flex-col justify-center items-center">
-      <Image className="h-40 lg:h-56 w-auto" src={tekwizaLogo} />
+      <Image alt="Tekwiza Logo" className="h-40 lg:h-56 w-auto" src={tekwizaLogo} />
       {/* <h1 className="text-2xl mt-2">Coming Soon...</h1> */}
       <Link className="border-2 px-2 py-[1.5] m-2 border-white transition-shadow hover:bg-white hover:text-black" href={'/events'}>
         <h2>Go to Events</h2>
