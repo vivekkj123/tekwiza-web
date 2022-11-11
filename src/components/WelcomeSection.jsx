@@ -18,8 +18,9 @@ const WelcomeSection = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="mt-6 lg:mt-0 bg-slate-900 bg-opacity-30 py-5 rounded-lg px-5">
+      <div className="text-sm mt-6 lg:mt-0 bg-slate-900 bg-opacity-30 py-5 rounded-lg px-5">
         <h1 className="text-3xl text-center">Welcome to TEKWIZA</h1>
+        <br />
         <h3>
           Tekwiza provides young people with a platform for leveraging their
           technical expertise. Moreover, it helps in encouraging young minds to
