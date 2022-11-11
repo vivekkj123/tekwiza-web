@@ -1,0 +1,6 @@
+.footer {
+    background: linear-gradient(90deg, #000000d4 0px,#070230b8 100% );
+    border-top: 0.2rem solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}

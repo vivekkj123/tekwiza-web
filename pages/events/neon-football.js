@@ -16,6 +16,7 @@ import NeonFootballImage from '../../public/images/Events/neon-football.jpeg'
 //   import NeonFootballImage from "/public/images/Events/Snake-O-Mystery.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 
 const NeonFootball = () => {
@@ -76,6 +77,8 @@ const NeonFootball = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

@@ -7,6 +7,7 @@ import Collapsible from "react-collapsible";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import Footer from "../src/components/Footer";
 
 const PosterPaperPresentation = () => {
   return (
@@ -160,6 +161,8 @@ const PosterPaperPresentation = () => {
           </Collapsible>
         </div>
       </div>
+      <Footer />
+
     </div>
   );
 };

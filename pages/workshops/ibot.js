@@ -12,6 +12,7 @@ import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import Link from "next/link";
 import IbotImage from "../../public/images/Workshops/IBot wrk.jpg";
+import Footer from "../../src/components/Footer";
 
 const IBot = () => {
   return (
@@ -89,6 +90,8 @@ const IBot = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

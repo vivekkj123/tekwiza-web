@@ -13,6 +13,7 @@ import PageHeader from "../../src/components/PageHeader";
 import OjingoImage from "../../public/images/Events/Ojingo.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const Ojingo = () => {
   useEffect(()=> {
@@ -83,6 +84,8 @@ const Ojingo = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

@@ -12,6 +12,7 @@ import {
   import IllusionImage from "../../public/images/Events/The Illusion.jpg";
   import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
   
 const TheIllusion = () => {
   useEffect(()=> {
@@ -66,7 +67,10 @@ const TheIllusion = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
+      
     </>
   );
 };

@@ -11,6 +11,7 @@ import EEEEvents from "../src/components/EEEEvents";
 import BTWorkshops from "../src/components/BTWorkshops";
 import CEWorkshops from "../src/components/CEWorkshops";
 import ECEWorkshops from "../src/components/ECEWorkshops";
+import Footer from "../src/components/Footer";
 
 const Workshops = () => {
   return (
@@ -24,6 +25,8 @@ const Workshops = () => {
         <BTWorkshops />
         <CEWorkshops />
         <ECEWorkshops />
+        <Footer />
+
       </div>
     </>
   );

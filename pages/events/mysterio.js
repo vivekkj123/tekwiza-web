@@ -13,6 +13,7 @@ import PageHeader from "../../src/components/PageHeader";
 import MysterioImage from "../../public/images/Events/Mysterio.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const Mysterio = () => {
   useEffect(()=> {
@@ -86,6 +87,8 @@ const Mysterio = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

@@ -10,6 +10,7 @@ import PageHeader from "../../src/components/PageHeader";
 import CodeBlueImage from "/public/images/Events/Code Blue.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const CodeBlue = () => {
   useEffect(()=> {
@@ -46,6 +47,8 @@ const CodeBlue = () => {
             <hr />
           </div>  
         </div>
+        <Footer />
+
       </div>
     </>
   );

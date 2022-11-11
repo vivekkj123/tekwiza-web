@@ -11,6 +11,7 @@ import EEEEvents from "../src/components/EEEEvents";
 import OtherEvents from "../src/components/OtherEvents";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../src/components/Footer";
 
 const Events = () => {
 
@@ -46,6 +47,8 @@ const Events = () => {
         <div data-aos="fade-down">
           <OtherEvents />
         </div>
+        <Footer />
+
       </div>
     </>
   );

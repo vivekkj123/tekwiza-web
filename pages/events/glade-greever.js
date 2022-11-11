@@ -12,6 +12,7 @@ import PageHeader from "../../src/components/PageHeader";
 import GladeGreeverImage from "../../public/images/Events/The Glade[EEE Event 2].png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 
 const GladeGreever = () => {
@@ -69,6 +70,8 @@ const GladeGreever = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

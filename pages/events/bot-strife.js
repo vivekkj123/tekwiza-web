@@ -14,6 +14,7 @@ import PageHeader from "../../src/components/PageHeader";
 import botStrifeImage from "../../public/images/Events/BotStrife.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const BotStrife = () => {
   useEffect(()=> {
@@ -106,6 +107,8 @@ const BotStrife = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

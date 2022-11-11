@@ -13,6 +13,7 @@ import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const CadMania = () => {
   useEffect(()=> {
@@ -109,6 +110,8 @@ const CadMania = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

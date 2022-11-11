@@ -15,6 +15,7 @@ import PageHeader from "../../src/components/PageHeader";
 //   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const Zypher = () => {
   useEffect(()=> {
@@ -166,6 +167,8 @@ const Zypher = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

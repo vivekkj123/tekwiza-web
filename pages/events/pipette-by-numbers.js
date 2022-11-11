@@ -16,6 +16,7 @@ import PageHeader from "../../src/components/PageHeader";
 import PipetteByNosImage from "/public/images/Events/Pipette by Numbers.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const PipetteByNos = () => {
   useEffect(()=> {
@@ -78,6 +79,8 @@ const PipetteByNos = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

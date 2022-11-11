@@ -17,6 +17,7 @@ import PageHeader from "../../src/components/PageHeader";
 import TurnInsideOutImage from "/public/images/Events/Turn Inside Out.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const TurnInsideOut = () => {
   useEffect(()=> {
@@ -98,6 +99,8 @@ const TurnInsideOut = () => {
             </div>
           </div>
         </div>
+        <Footer  />
+
       </div>
     </>
   );

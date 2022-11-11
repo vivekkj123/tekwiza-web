@@ -12,6 +12,7 @@ import {
 import HaloImage from "../../public/images/Events/Halo[ EEE Subevent 2 ].png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
   
   const Halo = () => {
     useEffect(()=> {
@@ -64,6 +65,8 @@ import 'aos/dist/aos.css';
               </div>
             </div>
           </div>
+        <Footer />
+
         </div>
       </>
     );

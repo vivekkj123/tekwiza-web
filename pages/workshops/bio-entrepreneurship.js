@@ -12,6 +12,7 @@ import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
 import Link from "next/link";
+import Footer from "../../src/components/Footer";
 const BioEnterpreneurship = () => {
   return (
     <>
@@ -85,6 +86,8 @@ const BioEnterpreneurship = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

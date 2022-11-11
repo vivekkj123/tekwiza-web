@@ -12,6 +12,7 @@ import PageHeader from "../../src/components/PageHeader";
 import TechArcadeImage from "../../public/images/Events/Tech arcade[ EEE subevent 1].png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const TechArcade = () => {
   useEffect(()=> {
@@ -65,7 +66,10 @@ const TechArcade = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
+
     </>
   );
 };

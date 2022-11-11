@@ -16,6 +16,7 @@ import PageHeader from "../../src/components/PageHeader";
 import ScriosImage from "/public/images/Events/SCRIOS.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const Scrios = () => {
   useEffect(()=> {
@@ -84,6 +85,8 @@ const Scrios = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

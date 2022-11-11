@@ -14,6 +14,7 @@ import PageHeader from "../../src/components/PageHeader";
 import ClueMinatiImage from '../../public/images/Events/clueminati.jpeg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 
 const Cluieminati = () => {
@@ -106,6 +107,8 @@ const Cluieminati = () => {
             </div>
           </div>
         </div>
+        <Footer />
+
       </div>
     </>
   );

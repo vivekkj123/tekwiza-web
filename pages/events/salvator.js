@@ -13,6 +13,7 @@ import PageHeader from "../../src/components/PageHeader";
 import SalvatorImage from "../../public/images/Events/Salvadore.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../src/components/Footer";
 
 const Salvator = () => {
   useEffect(()=> {
@@ -82,6 +83,8 @@ const Salvator = () => {
             </div>
           </div>
         </div>
+        <Footer  />
+
       </div>
     </>
   );
