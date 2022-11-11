@@ -18,8 +18,9 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
-.bgVideo{
-  
+
+.bgVideo {
+
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -28,7 +29,8 @@ body {
   left: 0;
   z-index: -2;
 }
-.overlay{
+
+.overlay {
   background-color: #000;
   opacity: 0.5;
   position: fixed;
@@ -50,51 +52,33 @@ body {
   transform-origin: 0%;
 }
 
-
-/* .Animationslide{
-  animation-name: sildedown;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.15, 0.9, 0.3, 1.04);
-}
-
-@keyframes sildedown {
-  0% {
-    -webkit-transform: translateY(-80px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-  }
-
-} */
-
-.register{
+.register {
   background-color: white;
   border-radius: 30px;
   align-items: center;
 }
 
-.circle{
+.circle {
   height: 8px;
   width: 8px;
   border-radius: 50%;
   background: #000;
 }
 
-.register-fee{
+.register-fee {
   color: black;
   transform: rotate(270deg);
   font-weight: bolder;
   border-bottom: 2px solid black;
 }
 
-.price > span{
+.price>span {
   font-weight: 500;
   padding-left: 1px;
   color: rgb(37, 37, 37);
 }
 
-.just{
+.just {
   stroke: red;
   stroke-width: 3;
   stroke-dasharray: 50, 750;

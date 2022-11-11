@@ -14,7 +14,7 @@ import Link from "next/link";
 import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
+  import QarkFentoImage from "/public/images/Events/QF0.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../src/components/Footer";
@@ -51,7 +51,7 @@ const QuarkFento = () => {
               </span>
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}
+          <Image className="h-46 w-auto" src={QarkFentoImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div className="h-auto border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">

@@ -37,11 +37,11 @@ const Navbar = () => {
               Workshops
             </h3>
           </Link>
-          <Link href="/the-team">
+          {/* <Link href="/the-team">
             <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 ml-5 cursor-pointer">
               The Team
             </h3>
-          </Link>
+          </Link> */}
           <Link href="/contact-us">
             <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 ml-5 cursor-pointer">
               Contact Us
@@ -69,11 +69,11 @@ const Navbar = () => {
             Workshops
           </h3>
         </Link>
-        <Link href="/the-team">
+        {/* <Link href="/the-team">
           <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1">
             The Team
           </h3>
-        </Link>
+        </Link> */}
         <Link href="/contact-us">
           <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1">
             Contact Us

@@ -14,6 +14,7 @@ import SalvatorImage from "../../public/images/Events/Salvadore.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../src/components/Footer";
+import Link from "next/link";
 
 const Salvator = () => {
   useEffect(()=> {
@@ -67,6 +68,11 @@ const Salvator = () => {
             <p className="mt-3 text-xs">2 members</p>
 
             <div className="register h-auto my-2 py-2 px-2 flex "><div className="circle"></div> <p className="register-fee">FEE</p><div></div><FontAwesomeIcon className="mx-2 text-black" icon={faIndianRupeeSign} /><p className="text-black price ">100<span>/-</span></p></div>
+            <Link href={"https://bit.ly/SalvatoR"}>
+              <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2 my-2">
+                Register Now
+              </div>
+            </Link>
           </div>
           <div className="h-auto border-2 mx-4 border-white py-3 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:lg:w-48" data-aos="fade-right" data-aos-delay="150">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
