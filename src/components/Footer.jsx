@@ -73,7 +73,7 @@ const Footer = () => {
           </Link>
           <h2 className="text-lg">FOLLOW US</h2>
           <div className="socialMediaIcon mt-2">
-            <Link href={"https://www.facebook.com/Sahrdaya/</div>"}>
+            <Link href={"https://www.facebook.com/Sahrdaya/"}>
               <FontAwesomeIcon className="mr-2" icon={faFacebook} />
             </Link>
             <Link

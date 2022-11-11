@@ -10,10 +10,7 @@ import Link from "next/link";
 import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-
-import NeonFootballImage from '../../public/images/Events/neon-football.jpeg'
-
-//   import NeonFootballImage from "/public/images/Events/Snake-O-Mystery.png";
+import NeonFootballImage from '../../public/images/Events/Neon Football.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../src/components/Footer";

@@ -11,7 +11,7 @@ import Link from "next/link";
 import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-import ClueMinatiImage from '../../public/images/Events/clueminati.jpeg'
+import ClueMinatiImage from '../../public/images/Events/Clueminati.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../src/components/Footer";

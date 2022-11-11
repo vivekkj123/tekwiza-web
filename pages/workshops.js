@@ -2,13 +2,9 @@ import React from "react";
 import Navbar from "../src/components/Navbar";
 import Head from "next/head";
 import PageHeader from "../src/components/PageHeader";
-import CSEEvents from "../src/components/CSEEvents";
-import BTEvents from "../src/components/BTEvents";
-import ECEEvents from "../src/components/ECEEvents";
-import CEEvents from "../src/components/CEEvents";
-import BMEvents from "../src/components/BMEvents";
-import EEEEvents from "../src/components/EEEEvents";
+
 import BTWorkshops from "../src/components/BTWorkshops";
+import CSEWorkshops from "../src/components/CSEWorkshops";
 import CEWorkshops from "../src/components/CEWorkshops";
 import ECEWorkshops from "../src/components/ECEWorkshops";
 import Footer from "../src/components/Footer";
@@ -24,6 +20,7 @@ const Workshops = () => {
         <PageHeader title={"TekWiza Workshops"} />
         <BTWorkshops />
         <CEWorkshops />
+        <CSEWorkshops />
         <ECEWorkshops />
         <Footer />
 

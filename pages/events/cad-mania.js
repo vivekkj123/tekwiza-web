@@ -14,6 +14,7 @@ import PageHeader from "../../src/components/PageHeader";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../src/components/Footer";
+import CADManiaImage from '../../public/images/Events/CAD Mania.png'
 
 const CadMania = () => {
   useEffect(()=> {
@@ -53,7 +54,7 @@ const CadMania = () => {
                     <td className="py-2 px-2 w-6">
                       1 <sup>st</sup>
                     </td>
-                    <td className="px-2 py-2">Rs. 2500/-</td>
+                    <td className="px-2 py-2">Rs. 2000/-</td>
                   </tr>
                   <tr className=" border-b-2">
                     <td className="py-2 px-2 w-6">
@@ -71,7 +72,7 @@ const CadMania = () => {
               </table>
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}
+          <Image className="h-46 w-auto" src={CADManiaImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
           <div className="h-auto border-2 mx-4 border-white py-6 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">

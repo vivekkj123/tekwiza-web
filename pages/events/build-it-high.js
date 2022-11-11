@@ -11,7 +11,7 @@ import Link from "next/link";
 import React , { useEffect }from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import BuildItHighImage from "/public/images/Events/Snake-O-Mystery.png";
+import BuildItHighImage from '../../public/images/Events/Build it High.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../src/components/Footer";
@@ -70,7 +70,7 @@ const BuildItHigh = () => {
               </table>
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={SnakeOMysteryImage} /> */}
+          <Image className="h-46 w-auto" src={BuildItHighImage} />
         </div>
 
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">

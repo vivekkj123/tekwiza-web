@@ -12,7 +12,11 @@ const Navbar = () => {
       <div className=" Navbar flex text-white lg:px-7 px-2 py-2 h-12 w-screen justify-between items-center ">
         <div className="LogoContainer flex">
           <Link href={"/"}>
-            <Image alt="Tekwiza Logo" className="h-6 lg:h-8 w-auto" src={tekwizaLogo} />
+            <Image
+              alt="Tekwiza Logo"
+              className="h-6 lg:h-8 w-auto"
+              src={tekwizaLogo}
+            />
           </Link>
         </div>
         <div className="lg:hidden">
@@ -24,13 +28,24 @@ const Navbar = () => {
         </div>
         <div className="Links hidden lg:flex">
           <Link href="/events">
-            <h3 className="ml-5 cursor-pointer">Events</h3>
+            <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 ml-5 cursor-pointer">
+              Events
+            </h3>
           </Link>
           <Link href="/workshops">
-            <h3 className="ml-5 cursor-pointer">Workshops</h3>
+            <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 ml-5 cursor-pointer">
+              Workshops
+            </h3>
+          </Link>
+          <Link href="/the-team">
+            <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 ml-5 cursor-pointer">
+              The Team
+            </h3>
           </Link>
           <Link href="/contact-us">
-            <h3 className="ml-5 cursor-pointer">Contact Us</h3>
+            <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 ml-5 cursor-pointer">
+              Contact Us
+            </h3>
           </Link>
         </div>
       </div>
@@ -40,20 +55,29 @@ const Navbar = () => {
         } items-center mx-auto py-4 z-[5]`}
       >
         <Link href="/">
-          <h3 className="cursor-pointer bg-black px-10 my-1 text-white">
+          <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1 text-white">
             Home
           </h3>
         </Link>
         <Link href="/events">
-          <h3 className="cursor-pointer bg-black px-10 my-1 text-white">
+          <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1 text-white">
             Events
           </h3>
         </Link>
         <Link href="/workshops">
-          <h3 className="cursor-pointer bg-black px-10 my-1">Workshops</h3>
+          <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1">
+            Workshops
+          </h3>
+        </Link>
+        <Link href="/the-team">
+          <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1">
+            The Team
+          </h3>
         </Link>
         <Link href="/contact-us">
-          <h3 className="cursor-pointer bg-black px-10 my-1">Contact Us</h3>
+          <h3 className="hover:underline pink decoration-purple-600 underline-offset-4 cursor-pointer bg-black px-10 my-1">
+            Contact Us
+          </h3>
         </Link>
       </div>
     </>

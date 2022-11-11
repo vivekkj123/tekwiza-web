@@ -1,8 +1,7 @@
 import React from "react";
 import EventCard from "./EventCard";
 import EventSeperator from "./EventSeperator";
-import comingSoon from '../../public/images/Events/coming-soon.jpg'
-import sketchWizImage from '../../public/images/Workshops/sketchwiz.jpeg'
+import sketchWizImage from '../../public/images/Workshops/Sketch Wiz.png'
 
 const CEWorkshops = () => {
   return (
