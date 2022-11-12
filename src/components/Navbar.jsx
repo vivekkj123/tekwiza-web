@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`NavBarLinks h-screen w-screen bg-white ${
+        className={`NavBarLinks h-screen w-screen bg-transparent ${
           ToggleNavbar ? "flex flex-col" : "hidden"
         } items-center mx-auto py-4 z-[5]`}
       >

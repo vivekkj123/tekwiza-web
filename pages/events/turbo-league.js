@@ -15,6 +15,7 @@ import PageHeader from "../../src/components/PageHeader";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../src/components/Footer";
+import TurboLeagueImage from '/public/images/Events/turbo leauge.jpg'
 
 const TurboLeague = () => {
   useEffect(() => {
@@ -58,7 +59,7 @@ const TurboLeague = () => {
               </table>
             </p>
           </div>
-          {/* <Image className="h-46 w-auto" src={TurboLeagueImage} /> */}
+          <Image className="h-46 w-auto" src={TurboLeagueImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
           <div

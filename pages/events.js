@@ -30,7 +30,7 @@ import FiE from "/public/images/Events/EV Expo[EEE Event 1].png";
 import GladeGreever from "/public/images/Events/The Glade[EEE Event 2].png";
 import TechArcade from "/public/images/Events/Tech arcade[ EEE subevent 1].png";
 import Halo from "/public/images/Events/Halo[ EEE Subevent 2 ].png";
-import comingSoon from '/public/images/Events/coming-soon.jpg'
+import TurboLeague from '/public/images/Events/turbo leauge.jpg'
 
 const Events = () => {
   useEffect(() => {
@@ -133,7 +133,7 @@ const Events = () => {
           />
           <EventCard
             name={"Turbo League"}
-            image={comingSoon}
+            image={TurboLeague}
             link={"/events/turbo-league"}
           />
           <EventCard
