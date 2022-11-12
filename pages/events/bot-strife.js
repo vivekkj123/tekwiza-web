@@ -71,7 +71,8 @@ const BotStrife = () => {
           <Image className="h-46 w-auto" src={botStrifeImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-8 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">
+          <div className="
+h-auto card border-2 mx-4 border-white py-8 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -81,7 +82,7 @@ const BotStrife = () => {
               <p className="text-xs">Bio Block Quadrangle</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-2 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="100">
+          <div className="h-auto card border-2 mx-4 border-white py-2 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="100">
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
 
             <div className="register h-auto my-2 py-2 px-2 flex "><div className="circle"></div> <p className="register-fee">FEE</p><div></div><FontAwesomeIcon className="mx-2 text-black" icon={faIndianRupeeSign} /><p className="text-black price ">1000<span>/-</span></p></div>
@@ -92,7 +93,7 @@ const BotStrife = () => {
               </div>
             </Link>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="150">
+          <div className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="150">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>

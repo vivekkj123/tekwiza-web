@@ -1,19 +1,25 @@
 import {
-    faClock,
+  faClock,
   faIndianRupeeSign,
   faMapMarkedAlt,
-  faPhone,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
-import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Footer from "../../src/components/Footer";
+import Link from "next/link";
+import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
+
 const BioEnterpreneurship = () => {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   return (
     <>
       <Head>
@@ -46,8 +52,12 @@ const BioEnterpreneurship = () => {
           </div>
           <Image className="h-46 w-auto" src={BioEnterpreneurshipImage} />
         </div>
-        <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
+        <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
+          <div
+            className="h-auto card border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
+            data-aos="fade-right"
+            data-aos-delay="50"
+          >
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -60,7 +70,11 @@ const BioEnterpreneurship = () => {
               <p className="text-xs">Bio Block (Seminar Hall 3)</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
+          <div
+            className="h-auto card border-2 mx-4 border-white py-7 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
 
             <div className="flex  mt-5">
@@ -68,14 +82,22 @@ const BioEnterpreneurship = () => {
               <p className="text-xs">Registration Fee: Rs.250/-</p>
             </div>
             <br />
-            <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSfeSLNV4apogcZwLTCD73cmK104GPExssmIwQ9qsipQ8MVs9g/viewform?usp=sf_link"}>
+            <Link
+              href={
+                "https://docs.google.com/forms/d/e/1FAIpQLSfeSLNV4apogcZwLTCD73cmK104GPExssmIwQ9qsipQ8MVs9g/viewform?usp=sf_link"
+              }
+            >
               <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2">
                 Register Now
               </div>
             </Link>
             <br />
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40">
+          <div
+            className="h-auto card border-2 mx-4 border-white py-3 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:w-48"
+            data-aos="fade-right"
+            data-aos-delay="150"
+          >
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>
@@ -87,7 +109,6 @@ const BioEnterpreneurship = () => {
           </div>
         </div>
         <Footer />
-
       </div>
     </>
   );

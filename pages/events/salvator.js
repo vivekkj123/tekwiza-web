@@ -53,7 +53,7 @@ const Salvator = () => {
           <Image className="h-46 w-auto" src={SalvatorImage} />
         </div>
         <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">
+          <div className="h-auto card border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>
@@ -63,7 +63,7 @@ const Salvator = () => {
               <p className="text-xs">Bio Block (211)</p>
             </div>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-7 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:lg:w-48" data-aos="fade-right" data-aos-delay="100">
+          <div className="h-auto card border-2 mx-4 border-white py-7 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48" data-aos="fade-right" data-aos-delay="100">
             <h2 className="border-b-2 text-xl font-mono">Registration</h2>
             <p className="mt-3 text-xs">2 members</p>
 
@@ -74,7 +74,7 @@ const Salvator = () => {
               </div>
             </Link>
           </div>
-          <div className="h-auto border-2 mx-4 border-white py-3 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:lg:w-48" data-aos="fade-right" data-aos-delay="150">
+          <div className="h-auto card border-2 mx-4 border-white py-3 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:w-48" data-aos="fade-right" data-aos-delay="150">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
 
             <p className="mt-3 text-xs">Coordinators</p>

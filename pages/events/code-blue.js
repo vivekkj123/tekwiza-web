@@ -35,7 +35,7 @@ const CodeBlue = () => {
           <Image className="h-46 w-auto" src={CodeBlueImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
-          <div className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48" data-aos="fade-right" data-aos-delay="50">
+          <div className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48" data-aos="fade-right" data-aos-delay="50">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
             <p className="mt-3 text-xs">Dec - 2 & 3</p>

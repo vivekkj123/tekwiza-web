@@ -42,7 +42,7 @@ const Arcade = () => {
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div
-            className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40 "
+            className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40 "
             data-aos="fade-right"
           >
             <h2 className="border-b-2  text-xl font-mono">Event Details</h2>
@@ -55,7 +55,7 @@ const Arcade = () => {
             </div>
           </div>
           <div
-            className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
+            className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
             data-aos="fade-right"
             data-aos-delay="100"
           >
@@ -68,7 +68,7 @@ const Arcade = () => {
             <br />
           </div>
           <div
-            className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:lg:lg:w-48 w-40"
+            className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
             data-aos="fade-right"
             data-aos-delay="150"
           >

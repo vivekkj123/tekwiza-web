@@ -63,7 +63,7 @@ const TurboLeague = () => {
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
           <div
-            className="h-auto border-2 mx-4 border-white py-11 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
+            className="h-auto card border-2 mx-4 border-white py-11 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
             data-aos="fade-right"
             data-aos-delay="50"
           >
@@ -80,7 +80,7 @@ const TurboLeague = () => {
             </div>
           </div>
           <div
-            className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
+            className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
             data-aos="fade-right"
             data-aos-delay="100"
           >
@@ -108,7 +108,7 @@ const TurboLeague = () => {
             </p>
           </div>
           <div
-            className="h-auto border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
+            className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
             data-aos="fade-right"
             data-aos-delay="150"
           >
