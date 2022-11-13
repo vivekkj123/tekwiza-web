@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faInstagram,
+  faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
@@ -73,13 +74,16 @@ const Footer = () => {
           </Link>
           <h2 className="text-lg">FOLLOW US</h2>
           <div className="socialMediaIcon mt-2">
-            <Link href={"https://www.facebook.com/Sahrdaya/"}>
+            <Link
+              href={"https://www.facebook.com/profile.php?id=100087384447381"}
+            >
               <FontAwesomeIcon className="mr-2" icon={faFacebook} />
             </Link>
-            <Link
-              href={"https://www.instagram.com/sahrdaya.engineering.college/"}
-            >
+            <Link href={"https://www.instagram.com/tekwiza/"}>
               <FontAwesomeIcon className="mx-2" icon={faInstagram} />
+            </Link>
+            <Link href={"https://twitter.com/tekwiza"}>
+              <FontAwesomeIcon className="mx-2" icon={faTwitter} />
             </Link>
             <Link href={"https://www.youtube.com/c/SahrdayaOfficialChannel"}>
               <FontAwesomeIcon className="mx-2" icon={faYoutube} />
