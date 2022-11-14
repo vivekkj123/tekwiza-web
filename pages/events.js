@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "/src/components/Navbar";
 import Head from "next/head";
 import PageHeader from "/src/components/PageHeader";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import Footer from "/src/components/Footer";
 import codeBlue from "/public/images/Events/Code Blue.png";
 import mysterio from "/public/images/Events/Mysterio.jpg";
@@ -30,18 +28,15 @@ import FiE from "/public/images/Events/EV Expo[EEE Event 1].png";
 import GladeGreever from "/public/images/Events/The Glade[EEE Event 2].png";
 import TechArcade from "/public/images/Events/Tech arcade[ EEE subevent 1].png";
 import Halo from "/public/images/Events/Halo[ EEE Subevent 2 ].png";
-import TurboLeague from '/public/images/Events/turbo leauge.jpg'
+import TurboLeague from "/public/images/Events/turbo leauge.jpg";
 
 const Events = () => {
-  useEffect(() => {
-    Aos.init({ duration: 600 });
-  }, []);
   return (
     <>
       <Head>
         <title>Events | Tekwiza 2022</title>
       </Head>
-      <div className="h-max  overflow-hidden z-20 bg-black Events">
+      <div className="h-max scroll-smooth overflow-hidden z-20 bg-black Events">
         <Navbar />
         <PageHeader title={"TekWiza Events"} />
         <div className="grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center lg:px-10">
@@ -77,11 +72,7 @@ const Events = () => {
             link={"/events/code-blue"}
           />
           <EventCard name={"FiE"} image={FiE} link={"/events/fie"} />
-          <EventCard
-            name={"Glade Greever"}
-            image={GladeGreever}
-            link={"/events/glade-greever"}
-          />
+
           <EventCard name={"Halo"} image={Halo} link={"/events/halo"} />
 
           <EventCard
@@ -125,6 +116,11 @@ const Events = () => {
             name={"Tek-O-Thon"}
             image={tekothon}
             link={"https:/tekothon.in/home"}
+          />
+          <EventCard
+            name={"The Glade"}
+            image={GladeGreever}
+            link={"/events/the-glade"}
           />
           <EventCard
             name={"The Illusion"}

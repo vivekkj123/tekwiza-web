@@ -16,9 +16,13 @@ body {
 
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
-
+ul {
+  overflow-x: visible;
+}
+/* .Collapsible__contentOuter{
+  overflow: visible !important;
+} */
 .bgVideo {
 
   object-fit: cover;

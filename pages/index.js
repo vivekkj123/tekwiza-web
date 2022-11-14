@@ -8,14 +8,13 @@ import WhatYouCanExpect from "../src/components/WhatYouCanExpect";
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen">
-      <Navbar className="Animationslide"/>
+    <div className="scroll-smooth overflow-x-hidden h-screen w-screen">
+      <Navbar className="Animationslide" />
       <Hero />
-      <WelcomeSection />
+      <WelcomeSection/>
       <WhatYouCanExpect />
       <Sponsors />
       <Footer />
-
     </div>
   );
 };

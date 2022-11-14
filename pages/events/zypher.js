@@ -12,7 +12,6 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-//   import ZypherImage from "/public/images/Events/Snake-O-Mystery.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../src/components/Footer";
