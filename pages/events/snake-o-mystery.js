@@ -1,23 +1,18 @@
 import {
-  faIndianRupeeSign,
-  faLocation,
-  faMapMarkedAlt,
-  faMapMarker,
-  faMapMarkerAlt,
-  faPhone,
-  faTrophy,
+  faIndianRupeeSign, faMapMarkedAlt, faPhone,
+  faTrophy
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
-import React , { useEffect }from "react";
+import React, { useEffect } from "react";
+import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import SnakeOMysteryImage from "/public/images/Events/Snake-O-Mystery.png";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import Footer from "../../src/components/Footer";
 
 const SnakeOMystery = () => {
   useEffect(()=> {
@@ -63,7 +58,7 @@ const SnakeOMystery = () => {
               </table>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={SnakeOMysteryImage} />
+          <ExportedImage className="h-46 w-auto" src={SnakeOMysteryImage} />
         </div>
         <div className="flex lg:flex-row flex-col text-white  items-center  justify-around">
           <div className="h-auto card border-2 mx-4 border-white py-10 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">

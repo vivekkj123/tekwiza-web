@@ -2,19 +2,19 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy,
+  faTrophy
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import React , { useEffect }from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
-import MysterioImage from "../../public/images/Events/Mysterio.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Footer from "../../src/components/Footer";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
 import Link from "next/link";
+import React, { useEffect } from "react";
+import MysterioImage from "../../public/images/Events/Mysterio.jpg";
+import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const Mysterio = () => {
   useEffect(()=> {
@@ -50,7 +50,7 @@ const Mysterio = () => {
               </table>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={MysterioImage} />
+          <ExportedImage className="h-46 w-auto" src={MysterioImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
           <div className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"  data-aos="fade-right">

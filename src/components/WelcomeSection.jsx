@@ -1,6 +1,7 @@
 import { faCalendarAlt, faDirections } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
+
 import Link from "next/link";
 import React from "react";
 import promoVideoComingSoon from "../../public/images/Promo video coming soon.jpg";
@@ -9,7 +10,7 @@ const WelcomeSection = () => {
   return (
     <div className="lg:px-10 gap-4 px-1 WelcomeSection items-center my-5 grid grid-cols-1 lg:grid-cols-2">
       <div className="flex h-40 w-auto justify-center">
-        <Image alt="Promo Coming Soon" src={promoVideoComingSoon} />
+        <ExportedImage alt="Promo Coming Soon" src={promoVideoComingSoon} />
       </div>
       <div className="text-sm mt-6 lg:mt-0 bg-slate-900 bg-opacity-30 py-5 rounded-lg px-5">
         <h1 className="text-3xl text-center">Welcome to TEKWIZA</h1>

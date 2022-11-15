@@ -1,19 +1,18 @@
 import {
   faIndianRupeeSign,
   faMapMarkedAlt,
-  faPhone,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import ArcadeImage from "../../public/images/Events/CSArcade.png";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import React, { useEffect } from "react";
+import ArcadeImage from "../../public/images/Events/CSArcade.png";
 import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const Arcade = () => {
   useEffect(() => {
@@ -38,7 +37,7 @@ const Arcade = () => {
               decide the next jedi.!
             </p>
           </div>
-          <Image className="h-46 w-auto" src={ArcadeImage} />
+          <ExportedImage className="h-46 w-auto" src={ArcadeImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div

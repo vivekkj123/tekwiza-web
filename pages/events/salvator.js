@@ -2,19 +2,19 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy,
+  faTrophy
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import React , { useEffect }from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
-import SalvatorImage from "../../public/images/Events/Salvadore.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Footer from "../../src/components/Footer";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
 import Link from "next/link";
+import React, { useEffect } from "react";
+import SalvatorImage from "../../public/images/Events/Salvadore.png";
+import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const Salvator = () => {
   useEffect(()=> {
@@ -50,7 +50,7 @@ const Salvator = () => {
               </table>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={SalvatorImage} />
+          <ExportedImage className="h-46 w-auto" src={SalvatorImage} />
         </div>
         <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
           <div className="h-auto card border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">

@@ -1,16 +1,16 @@
 import {
-  faMapMarkedAlt,
+  faMapMarkedAlt
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
-import Image from "next/image";
-import React , { useEffect }from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 import CodeBlueImage from "/public/images/Events/Code Blue.png";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import Footer from "../../src/components/Footer";
 
 const CodeBlue = () => {
   useEffect(()=> {
@@ -32,7 +32,7 @@ const CodeBlue = () => {
               tech support behind it.
             </p>
           </div>
-          <Image className="h-46 w-auto" src={CodeBlueImage} />
+          <ExportedImage className="h-46 w-auto" src={CodeBlueImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
           <div className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg w-40 lg:w-48" data-aos="fade-right" data-aos-delay="50">

@@ -1,13 +1,13 @@
-import React from "react";
-import Navbar from "../src/components/Navbar";
 import Head from "next/head";
-import PageHeader from "../src/components/PageHeader";
-import Footer from "../src/components/Footer";
-import bioEnterpreneurshipImage from "/public/images/Workshops/Bio-Entrepreneurship Workshop.png";
+import React from "react";
 import EventCard from "../src/components/EventCard";
+import Footer from "../src/components/Footer";
+import Navbar from "../src/components/Navbar";
+import PageHeader from "../src/components/PageHeader";
+import bioEnterpreneurshipImage from "/public/images/Workshops/Bio-Entrepreneurship Workshop.png";
+import IbotImage from "/public/images/Workshops/IBot wrk.jpg";
 import sketchWizImage from "/public/images/Workshops/Sketch Wiz.png";
 import toogleImage from "/public/images/Workshops/toogle-workshop.JPG";
-import IbotImage from "/public/images/Workshops/IBot wrk.jpg";
 
 const Workshops = () => {
   return (

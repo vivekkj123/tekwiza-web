@@ -2,19 +2,18 @@ import {
   faClock,
   faIndianRupeeSign,
   faMapMarkedAlt,
-  faPhone,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Footer from "../../src/components/Footer";
-import Link from "next/link";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
+import React, { useEffect } from "react";
 import IbotImage from "../../public/images/Workshops/IBot wrk.jpg";
+import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const IBot = () => {
   useEffect(() => {
@@ -45,7 +44,7 @@ const IBot = () => {
               to be the driving force that brought humanity to its zenith.
             </p>
           </div>
-          <Image className="h-46 w-auto" src={IbotImage} />
+          <ExportedImage className="h-46 w-auto" src={IbotImage} />
         </div>
         <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
           <div

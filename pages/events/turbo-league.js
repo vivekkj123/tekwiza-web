@@ -3,19 +3,19 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy,
+  faTrophy
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
+import Link from "next/link";
+import React, { useEffect } from "react";
 import Footer from "../../src/components/Footer";
-import TurboLeagueImage from '/public/images/Events/turbo leauge.jpg'
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
+import TurboLeagueImage from '/public/images/Events/turbo leauge.jpg';
 
 const TurboLeague = () => {
   useEffect(() => {
@@ -59,7 +59,7 @@ const TurboLeague = () => {
               </table>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={TurboLeagueImage} />
+          <ExportedImage className="h-46 w-auto" src={TurboLeagueImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white   items-center justify-around">
           <div

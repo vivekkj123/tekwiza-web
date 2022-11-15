@@ -4,22 +4,22 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build && next export && next-image-export-optimizer",
     "start": "next start",
     "deploy": "deploy-to-git",
     "lint": "next lint"
   },
   "config": {
     "deployToGit": {
-        "repository": "git@github.com:vivekkj123/tekwiza-web.git",
-        "branch": "build",
-        "folder": "out",
-        "script": "npm run build",
-        "commit": "Update build artifacts",
-        "user": {
-            "email": "vivekkj2004@gmail.com",
-            "name": "Vivek K J"
-        }
+      "repository": "git@github.com:vivekkj123/tekwiza-web.git",
+      "branch": "build",
+      "folder": "out",
+      "script": "npm run build",
+      "commit": "Update build artifacts",
+      "user": {
+        "email": "vivekkj2004@gmail.com",
+        "name": "Vivek K J"
+      }
     }
   },
   "dependencies": {
@@ -30,6 +30,7 @@
     "aos": "^2.3.4",
     "framer-motion": "^7.6.5",
     "next": "13.0.2",
+    "next-image-export-optimizer": "^1.0.1",
     "react": "18.2.0",
     "react-collapsible": "^2.10.0",
     "react-dom": "18.2.0"

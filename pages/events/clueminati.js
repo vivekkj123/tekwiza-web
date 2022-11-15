@@ -2,19 +2,19 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy,
+  faTrophy
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import React , { useEffect }from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
-import ClueMinatiImage from '../../public/images/Events/Clueminati.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Link from "next/link";
+import React, { useEffect } from "react";
+import ClueMinatiImage from '../../public/images/Events/Clueminati.png';
 import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 
 const Cluieminati = () => {
@@ -67,7 +67,7 @@ const Cluieminati = () => {
               </table>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={ClueMinatiImage} />
+          <ExportedImage className="h-46 w-auto" src={ClueMinatiImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div className="

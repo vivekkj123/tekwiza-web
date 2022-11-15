@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 import styles from "../../styles/Footer.module.css";
 import TekWizaLogo from "../../public/images/tekwiza-logo-1.png";
@@ -11,20 +11,21 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import ExportedImage from "next-image-export-optimizer";
 
 const Footer = () => {
   return (
     <div className={`${styles.footer} text-sm`}>
       <div className="flex px-2 lg:px-16 lg:flex-row flex-col justify-around items-center py-8">
         <div className="logos flex flex-col justify-center items-center">
-          <Image
+          <ExportedImage
             alt="Tekwiza Logo"
             src={TekWizaLogo}
             className="h-6 my-2 w-auto"
           />
           <p>In Association With</p>
           <Link href={"https://sahrdaya.ac.in"}>
-            <Image
+            <ExportedImage
               alt="Sahrdaya Logo"
               className="brightness-0 my-2 h-6 w-auto invert"
               src={scetLogo}

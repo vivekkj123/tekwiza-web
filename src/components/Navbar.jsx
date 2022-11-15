@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import React, { useState } from "react";
 import tekwizaLogo from "/public/images/logo.png";
@@ -10,6 +10,7 @@ import {
   faWindowClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import ExportedImage from "next-image-export-optimizer";
 
 const Navbar = () => {
   const [ToggleNavbar, setToggleNavbar] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className=" Navbar flex text-white lg:px-7 px-2 py-2 h-12 w-screen justify-between items-center ">
         <div className="LogoContainer flex">
           <Link href={"/"}>
-            <Image
+            <ExportedImage
               alt="Tekwiza Logo"
               className="h-6 lg:h-8 w-auto"
               src={tekwizaLogo}

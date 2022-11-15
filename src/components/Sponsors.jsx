@@ -1,4 +1,5 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
+
 import Link from "next/link";
 import React from "react";
 import JobinandJismy from "../../public/images/sponsors/JJ Final.png";
@@ -9,7 +10,7 @@ const Sponsors = () => {
       <h1 className="text-center text-3xl">Sponsors</h1>
       <div className="flex lg:flex-row flex-col flex-wrap">
         <Link href={"https://www.jobinandjismi.com/"}>
-          <Image alt="Jobin & Jismi" className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-10 m-4 w-auto" src={JobinandJismy} />
+          <ExportedImage alt="Jobin & Jismi" className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-10 m-4 w-auto" src={JobinandJismy} />
         </Link>
       </div>
     </div>

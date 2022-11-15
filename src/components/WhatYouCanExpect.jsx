@@ -1,4 +1,5 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
+
 import React from "react";
 import posterImage from "../../public/images/poster.png";
 
@@ -27,7 +28,7 @@ const WhatYouCanExpect = () => {
           </b>
         </h3>
       </div>
-      <Image className="mx-auto h-80 w-auto" src={posterImage} />
+      <ExportedImage className="mx-auto h-80 w-auto" src={posterImage} />
     </div>
   );
 };

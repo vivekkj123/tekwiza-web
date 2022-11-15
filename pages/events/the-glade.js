@@ -1,21 +1,19 @@
 import {
   faCaretDown,
-  faCaretRight,
-  faIndianRupeeSign,
-  faMapMarkedAlt,
-  faPhone,
+  faCaretRight, faMapMarkedAlt,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
-import GladeGreeverImage from "../../public/images/Events/The Glade[EEE Event 2].png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Footer from "../../src/components/Footer";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
+import React, { useEffect } from "react";
 import Collapsible from "react-collapsible";
+import GladeGreeverImage from "../../public/images/Events/The Glade[EEE Event 2].png";
+import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const GladeGreever = () => {
   useEffect(() => {
@@ -91,7 +89,7 @@ const GladeGreever = () => {
               </ul>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={GladeGreeverImage} />
+          <ExportedImage className="h-46 w-auto" src={GladeGreeverImage} />
         </div>
         <Collapsible
           openedClassName="font-display font-thin py-3 mx-20 px-10 border-white rounded-lg border-2"

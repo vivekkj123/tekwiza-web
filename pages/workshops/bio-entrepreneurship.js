@@ -5,16 +5,16 @@ import {
   faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Footer from "../../src/components/Footer";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
 import Link from "next/link";
+import React, { useEffect } from "react";
 import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
+import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const BioEnterpreneurship = () => {
   useEffect(() => {
@@ -50,7 +50,7 @@ const BioEnterpreneurship = () => {
               Participation shall be provided to all the participants.
             </p>
           </div>
-          <Image className="h-46 w-auto" src={BioEnterpreneurshipImage} />
+          <ExportedImage className="h-46 w-auto" src={BioEnterpreneurshipImage} />
         </div>
         <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
           <div

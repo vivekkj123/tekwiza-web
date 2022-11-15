@@ -1,13 +1,13 @@
+import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExportedImage from "next-image-export-optimizer";
+import Link from "next/link";
 import React from "react";
+import Collapsible from "react-collapsible";
+import posterPaperImage from "../public/images/Events/poster_paper.jpg";
+import Footer from "../src/components/Footer";
 import Navbar from "../src/components/Navbar";
 import PageHeader from "../src/components/PageHeader";
-import posterPaperImage from "../public/images/Events/poster_paper.jpg";
-import Image from "next/image";
-import Collapsible from "react-collapsible";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
-import Footer from "../src/components/Footer";
 
 const PosterPaperPresentation = () => {
   return (
@@ -60,7 +60,7 @@ const PosterPaperPresentation = () => {
             </p>
           </div>
           <div className="Image flex justify-center place-items-center">
-            <Image className=" lg:h-96 w-auto" src={posterPaperImage} />
+            <ExportedImage className=" lg:h-96 w-auto" src={posterPaperImage} />
           </div>
         </div>
         <Link href={"https://forms.gle/FYFL7Pps3t9W2NKi6"}>

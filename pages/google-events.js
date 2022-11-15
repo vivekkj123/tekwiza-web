@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import Navbar from "/src/components/Navbar";
-import Head from "next/head";
-import PageHeader from "/src/components/PageHeader";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Footer from "/src/components/Footer";
+import Head from "next/head";
+import React, { useEffect } from "react";
 import EventCard from "../src/components/EventCard";
-import toogleImage from '/public/images/Workshops/toogle-workshop.JPG'
+import toogleImage from '/public/images/Workshops/toogle-workshop.JPG';
+import Footer from "/src/components/Footer";
+import Navbar from "/src/components/Navbar";
+import PageHeader from "/src/components/PageHeader";
 
 const GoogleEvents = () => {
   useEffect(() => {

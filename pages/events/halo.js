@@ -1,18 +1,18 @@
 import {
   faIndianRupeeSign,
   faMapMarkedAlt,
-  faPhone,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
-import HaloImage from "../../public/images/Events/Halo[ EEE Subevent 2 ].png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import React, { useEffect } from "react";
+import HaloImage from "../../public/images/Events/Halo[ EEE Subevent 2 ].png";
 import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const Halo = () => {
   useEffect(() => {
@@ -42,7 +42,7 @@ const Halo = () => {
               be dimmed to make the game intense and thrilling
             </p>
           </div>
-          <Image className="h-46 w-auto" src={HaloImage} />
+          <ExportedImage className="h-46 w-auto" src={HaloImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div

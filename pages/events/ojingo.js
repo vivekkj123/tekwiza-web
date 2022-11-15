@@ -2,19 +2,19 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy,
+  faTrophy
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Head from "next/head";
-import Image from "next/image";
-import React, { useEffect } from "react";
-import Navbar from "../../src/components/Navbar";
-import PageHeader from "../../src/components/PageHeader";
-import OjingoImage from "../../public/images/Events/Ojingo.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Footer from "../../src/components/Footer";
+import ExportedImage from "next-image-export-optimizer";
+import Head from "next/head";
 import Link from "next/link";
+import React, { useEffect } from "react";
+import OjingoImage from "../../public/images/Events/Ojingo.png";
+import Footer from "../../src/components/Footer";
+import Navbar from "../../src/components/Navbar";
+import PageHeader from "../../src/components/PageHeader";
 
 const Ojingo = () => {
   useEffect(() => {
@@ -51,7 +51,7 @@ const Ojingo = () => {
               </table>
             </p>
           </div>
-          <Image className="h-46 w-auto" src={OjingoImage} />
+          <ExportedImage className="h-46 w-auto" src={OjingoImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div
