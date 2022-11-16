@@ -28,7 +28,11 @@ const WhatYouCanExpect = () => {
           </b>
         </h3>
       </div>
-      <ExportedImage className="mx-auto h-80 w-auto" src={posterImage} />
+      <ExportedImage
+        className="mx-auto h-80 w-auto"
+        alt="Tekwiza Poster"
+        src={posterImage}
+      />
     </div>
   );
 };
