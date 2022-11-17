@@ -1,7 +1,8 @@
 import {
   faCaretDown,
-  faCaretRight, faMapMarkedAlt,
-  faPhone
+  faCaretRight,
+  faMapMarkedAlt,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
@@ -92,8 +93,8 @@ const GladeGreever = () => {
           <ExportedImage className="h-46 w-auto" src={GladeGreeverImage} />
         </div>
         <Collapsible
-          openedClassName="font-display font-thin py-3 mx-20 px-10 border-white rounded-lg border-2"
-          className="mx-20 font-display font-thin my-5 px-5 rounded-lg border-white border-2"
+          openedClassName="font-display font-thin py-3 lg:mx-20 mx-2 px-2 lg:px-10 border-white rounded-lg border-2"
+          className="lg:mx-20 mx-2 font-display font-thin my-5 px-2 lg:px-5 rounded-lg border-white border-2"
           triggerWhenOpen={
             <div className="flex items-center p-2 gap-4">
               <FontAwesomeIcon icon={faCaretDown} />
@@ -150,8 +151,8 @@ const GladeGreever = () => {
           </ul>
         </Collapsible>
         <Collapsible
-          openedClassName="font-display font-thin py-3 mx-20 px-10 border-white rounded-lg border-2"
-          className="mx-20 font-display font-thin my-5 px-5 rounded-lg border-white border-2"
+          openedClassName="font-display font-thin py-3 lg:mx-20 mx-2 px-2 lg:px-10 border-white rounded-lg border-2"
+          className="lg:mx-20 mx-2 font-display font-thin my-5 px-2 lg:px-5 rounded-lg border-white border-2"
           triggerWhenOpen={
             <div className="flex items-center p-2 gap-4">
               <FontAwesomeIcon icon={faCaretDown} />
@@ -202,7 +203,7 @@ h-auto card border-2 mx-4 border-white py-7 font-display flex flex-col items-cen
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />
-              <p className="text-xs">DB Quadrangle</p>
+              <p className="text-xs">Ground Floor (DB)</p>
             </div>
           </div>
           <div
@@ -237,7 +238,7 @@ h-auto card border-2 mx-4 border-white py-7 font-display flex flex-col items-cen
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faPhone} />
-              <p className="text-xs">TBA</p>
+              <p className="text-xs">Ashwin Jaison - 7511163335</p>
             </div>
           </div>
         </div>

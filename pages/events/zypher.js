@@ -213,7 +213,7 @@ h-auto card border-2 mx-4 border-white py-8 font-display flex flex-col items-cen
             </div>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faPhone} />
-              <p className="text-xs">Sooraj - +91 79943 80504</p>
+              <p className="text-xs">Sooraj - +91 89436 51774</p>
             </div>
           </div>
         </div>

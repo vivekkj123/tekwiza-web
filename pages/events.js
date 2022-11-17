@@ -13,6 +13,7 @@ import Halo from "/public/images/Events/Halo[ EEE Subevent 2 ].png";
 import mysterio from "/public/images/Events/Mysterio.jpg";
 import NeonFootballImage from "/public/images/Events/Neon Football.png";
 import ojingo from "/public/images/Events/Ojingo.png";
+import PosterPaper from "/public/images/Events/paper-poster-02.jpeg";
 import PipetteByNos from "/public/images/Events/Pipette by Numbers.jpg";
 import QarkFentoImage from "/public/images/Events/QF0.jpg";
 import salvator from "/public/images/Events/Salvadore.png";
@@ -90,6 +91,11 @@ const Events = () => {
             name={"Pipette By Numbers"}
             image={PipetteByNos}
             link={"/events/pipette-by-numbers"}
+          />
+          <EventCard
+            name={"Poster/Paper Presentation"}
+            image={PosterPaper}
+            link={"/poster-paper-presentation"}
           />
           <EventCard
             name={"Qark Fento"}
