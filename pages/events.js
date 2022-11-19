@@ -17,7 +17,7 @@ import PosterPaper from "/public/images/Events/paper-poster-02.jpeg";
 import PipetteByNos from "/public/images/Events/Pipette by Numbers.jpg";
 import QarkFentoImage from "/public/images/Events/QF0.jpg";
 import salvator from "/public/images/Events/Salvadore.png";
-import Scrios from "/public/images/Events/SCRIOS.jpg";
+import Scrios from "/public/images/Events/SCRIOS.PNG";
 import SnakeOMystery from "/public/images/Events/Snake-O-Mystery.png";
 import TechArcade from "/public/images/Events/Tech arcade[ EEE subevent 1].png";
 import tekothon from "/public/images/Events/tekothon.png";

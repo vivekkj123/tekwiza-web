@@ -11,7 +11,7 @@ import React, { useEffect } from "react";
 import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
-import ScriosImage from "/public/images/Events/SCRIOS.jpg";
+import ScriosImage from "/public/images/Events/SCRIOS.PNG";
 
 const Scrios = () => {
   useEffect(()=> {
