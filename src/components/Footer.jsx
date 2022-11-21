@@ -1,8 +1,8 @@
-
 import React from "react";
 import styles from "../../styles/Footer.module.css";
 import TekWizaLogo from "../../public/images/tekwiza-logo-1.png";
 import scetLogo from "../../public/images/scet-logo.png";
+import clubfmLogo from "../../public/images/sponsors/media-partner.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -32,6 +32,17 @@ const Footer = () => {
             />
           </Link>
         </div>
+        <Link
+          href={"https://www.clubfm.in/"}
+          className="mediaPartner flex flex-col items-center"
+        >
+          <h2>Media Partner</h2>
+          <ExportedImage
+            alt="ClubFM Logo - Media Partner Tekwiza"
+            className="brightness-0 my-2 h-12 w-auto invert"
+            src={clubfmLogo}
+          />
+        </Link>
         <div className="quickLinks">
           <h2 className="text-center text-lg lg:mt-0 mt-3">Quick Links</h2>
           <div className="grid mt-4 grid-cols-2 text-center">
