@@ -22,7 +22,7 @@ const Workshops = () => {
           <EventCard
             name={"Advanced Python and Automation"}
             image={toogleImage}
-            // link={"/workshops/toogle"}
+            link={"https://toogle.co.in"}
           />
           <EventCard
             name={"Bio-Entrepreneurship"}
