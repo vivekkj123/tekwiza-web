@@ -2,7 +2,7 @@ import {
   faClock,
   faIndianRupeeSign,
   faMapMarkedAlt,
-  faPhone
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
@@ -11,46 +11,55 @@ import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useEffect } from "react";
-import BioEnterpreneurshipImage from "../../public/images/Workshops/Bio-Entrepreneurship Workshop.png";
+import AndroidCampusFestImage from "/public/images/Workshops/Android Campus Fest.jpg";
+
 import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
 
-const BioEnterpreneurship = () => {
+const AndroidCampusFest = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
   return (
     <>
       <Head>
-        <title>Bio Entrepreneurship | TekWiza 2k22</title>
+        <title>Android Campus Fest | TekWiza 2k22</title>
       </Head>
       <div className="bg-black  overflow-hidden h-full">
         <Navbar />
-        <PageHeader title={"Bio Entrepreneurship"} />
+        <PageHeader title={"Android Campus Fest"} />
         <div className="  font-display grid gap-4 py-5 px-2 lg:px-12 lg:grid-cols-2">
           <div className="flex items-center font-thin mx-2 lg:mx-6">
             <p>
-              <h3 className="font-semibold">
-                by Mr. Najeeb Bin Haneef, Founder & CEO of ZAARA BIOTECH{" "}
-              </h3>
-              <br />
-              An entrepreneur is the driving force for the forward momentum of
-              an organization. Biotechnology entrepreneurship is the sum of all
-              activities necessary to build an enterprise through the melding of
-              both scientific and business disciplines. Mr. Najeeb’s
-              entrepreneurial journey began from Sahrdaya in 2016. After
-              undergoing training in algal culture, he collaborated with the
-              Indian Council of Agriculture and Research’s Central Institute of
-              Fisheries Technology (ICAR CIFT) towards the product development
-              (B-Lite Cookies). Zaara Biotech fostered under the Kerala Startup
-              Mission’s (KSUM) flagship Innovation and Entrepreneurship
-              Development Centre (IEDC) scheme. He has received big investments
-              of 10 million and more from UAE and USA. Certificate of
-              Participation shall be provided to all the participants.
+              We are conducting an Android app development Appathon in
+              association with Tekwiza - Techfest of Sahrdaya on 2nd of December
+              2022. The program is a collaboration between Android Educator
+              Community and Sahrdaya College of Engineering and Technology.
+              Theme of the Appathon is "Building Apps useful for KTU"  <br />
+              But I don't know Android Development yet  <br />
+                We have planned the appathon as a workshop + mentoring kind of
+              model. Morning session, there will be a workshop on android
+              development basics and afternoon it will be a self paced study +
+              implement model. We want this appathon to serve as a starting
+              point on android development for our participants. We expect that
+              students without prior app development knowledge will be able to
+              gain the basics of building their own android apps once they
+              complete this appathon. This is not a branch specific event.
+              Students from any stream can join the event if they have some kind
+              of programming knowledge in any coding platform.  <br />
+                 What are the deliverables?  <br />
+                Be the first from your campus to learn about "kotlin" - the
+              latest google backed framework in Android Development. This
+              automatically makes them the best suited candidates for Android
+              development based companies during interviews.  <br />
+              e-Certificates to claim Activity Points.  <br />
+              The top performing teams will receive exciting the Tech Giant
+              Sponsored Goodies.  <br />
+              Early bird discounts for registration is available now.  <br />
             </p>
           </div>
-          <ExportedImage className="h-46 w-auto" src={BioEnterpreneurshipImage} />
+          <ExportedImage className="h-46 w-auto" src={AndroidCampusFestImage} />
         </div>
         <div className="lg:flex-row flex flex-col text-white  items-center  lg:justify-around">
           <div
@@ -60,14 +69,16 @@ const BioEnterpreneurship = () => {
           >
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
-            <p className="mt-3 text-xs">Dec - 2 & 3</p>
-            <div className="flex gap-2 mt-5">
+            <p className="mt-3 text-xs">Dec 2nd</p>
+            <div className="flex mt-5">
               <FontAwesomeIcon icon={faClock} />
-              <p className="text-xs">10 AM - 4 PM</p>
+              <p className="text-xs"> 9am - 12:30pm</p>
             </div>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />
-              <p className="text-xs">Bio Block (Seminar Hall 3)</p>
+              <p className="text-xs">
+                BME Tutorial Room ( Bio Block - Ground Floor )
+              </p>
             </div>
           </div>
           <div
@@ -79,14 +90,10 @@ const BioEnterpreneurship = () => {
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faIndianRupeeSign} />
-              <p className="text-xs">Registration Fee: Rs.250/-</p>
+              <p className="text-xs">Registration Fee: Rs.399/- per Team</p>
             </div>
             <br />
-            <Link
-              href={
-                "https://docs.google.com/forms/d/e/1FAIpQLSfeSLNV4apogcZwLTCD73cmK104GPExssmIwQ9qsipQ8MVs9g/viewform?usp=sf_link"
-              }
-            >
+            <Link href={"https://rzp.io/l/scet"}>
               <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2">
                 Register Now
               </div>
@@ -104,7 +111,10 @@ const BioEnterpreneurship = () => {
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faPhone} />
-              <p className="text-xs">Nihal K- 8157869722</p>
+              <div>
+                <p className="text-xs">Nikhil Siby : 82812 86410</p>
+                <p className="text-xs">Aloshious : 81138 45134</p>
+              </div>
             </div>
           </div>
         </div>
@@ -114,4 +124,4 @@ const BioEnterpreneurship = () => {
   );
 };
 
-export default BioEnterpreneurship;
+export default AndroidCampusFest;

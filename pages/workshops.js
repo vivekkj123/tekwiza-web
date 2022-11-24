@@ -8,6 +8,8 @@ import bioEnterpreneurshipImage from "/public/images/Workshops/Bio-Entrepreneurs
 import IbotImage from "/public/images/Workshops/IBot wrk.jpg";
 import sketchWizImage from "/public/images/Workshops/Sketch Wiz.png";
 import toogleImage from "/public/images/Workshops/toogle-workshop.JPG";
+import AssistonImage from "/public/images/Workshops/Assiston.jpg";
+import AndroidCampusFestImage from '/public/images/Workshops/Android Campus Fest.jpg'
 
 const Workshops = () => {
   return (
@@ -24,6 +26,12 @@ const Workshops = () => {
             image={toogleImage}
             link={"https://toogle.co.in"}
           />
+          <EventCard
+            name={"Android Campus Fest"}
+            image={AndroidCampusFestImage}
+            link={"/workshops/android-campus-fest"}
+          />
+          <EventCard name={"Assiston"} image={AssistonImage} link={"/workshops/assiston"} />
           <EventCard
             name={"Bio-Entrepreneurship"}
             image={bioEnterpreneurshipImage}

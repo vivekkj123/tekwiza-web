@@ -51,7 +51,7 @@ const Scrios = () => {
           <div className="h-auto card border-2 mx-4 border-white py-10 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="50">
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
-            <p className="mt-3 text-xs py-1">Dec - 2 & 3</p>
+            <p className="mt-3 text-xs py-1">Dec 3rd</p>
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />

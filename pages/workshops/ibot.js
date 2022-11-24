@@ -2,13 +2,14 @@ import {
   faClock,
   faIndianRupeeSign,
   faMapMarkedAlt,
-  faPhone
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
+import Link from "next/link";
 import React, { useEffect } from "react";
 import IbotImage from "../../public/images/Workshops/IBot wrk.jpg";
 import Footer from "../../src/components/Footer";
@@ -54,14 +55,14 @@ const IBot = () => {
           >
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
-            <p className="mt-3 text-xs">Dec - 2 & 3</p>
+            <p className="mt-3 text-xs">Dec 3rd</p>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faClock} />
               <p className="text-xs">9:00 AM - 1:00 PM</p>
             </div>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />
-              <p className="text-xs">Accenture Lab</p>
+              <p className="text-xs">IoT Lab</p>
             </div>
           </div>
           <div
@@ -76,6 +77,11 @@ const IBot = () => {
               <p className="text-xs">Registration Fee: Rs.500/-</p>
             </div>
             <br />
+            <Link href={"https://forms.gle/ZVGDGjE8jDGNfSzT8"}>
+              <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2">
+                Register Now
+              </div>
+            </Link>
           </div>
           <div
             className="h-auto card border-2 mx-4 border-white py-3 font-display flex flex-col items-center my-4 rounded-lg  w-40 lg:w-48"
