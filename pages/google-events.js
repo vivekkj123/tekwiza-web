@@ -3,10 +3,11 @@ import "aos/dist/aos.css";
 import Head from "next/head";
 import React, { useEffect } from "react";
 import EventCard from "../src/components/EventCard";
-import toogleImage from '/public/images/Workshops/toogle-workshop.JPG';
+import toogleImage from "/public/images/Workshops/toogle-workshop.JPG";
 import Footer from "/src/components/Footer";
 import Navbar from "/src/components/Navbar";
 import PageHeader from "/src/components/PageHeader";
+import AndroidCampusFestImage from "/public/images/Workshops/Android Campus Fest.jpg";
 
 const GoogleEvents = () => {
   useEffect(() => {
@@ -21,10 +22,15 @@ const GoogleEvents = () => {
         <Navbar />
         <PageHeader title={"Google Events"} />
         <div className="grid grid-cols-1 lg:grid-cols-3 py-5 place-items-center lg:px-10">
-        <EventCard
+          <EventCard
             name={"Advanced Python and Automation"}
             image={toogleImage}
-            // link={"/workshops/toogle"}
+            link={"https://toogle.co.in"}
+          />
+          <EventCard
+            name={"Android Campus Fest"}
+            image={AndroidCampusFestImage}
+            link={"/workshops/android-campus-fest"}
           />
         </div>
         <Footer />
