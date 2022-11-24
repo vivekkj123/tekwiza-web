@@ -15,7 +15,7 @@ const WelcomeSection = () => {
       <div className="text-sm mt-6 lg:mt-0 bg-slate-900 bg-opacity-30 py-5 rounded-lg px-5">
         <h1 className="text-3xl text-center">Welcome to TEKWIZA</h1>
         <br />
-        <h3>
+        <h3 className="font-display text-xs">
           Tekwiza provides young people with a platform for leveraging their
           technical expertise. Moreover, it helps in encouraging young minds to
           explore, learn and upskill themselves through a variety of workshops

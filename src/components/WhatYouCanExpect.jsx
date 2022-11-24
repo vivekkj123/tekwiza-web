@@ -9,7 +9,7 @@ const WhatYouCanExpect = () => {
       <div className=" bg-slate-900 bg-opacity-30 py-5 rounded-lg px-5">
         <h1 className="text-3xl text-center">What You Can Expect?</h1>
         <br />
-        <h3>
+        <h3  className="font-display text-xs">
           Over 25+ events and workshops covering 6 major engineering departments
           have been organized by our team with hours of hard work and
           dedication.

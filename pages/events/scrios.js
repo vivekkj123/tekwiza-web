@@ -68,6 +68,7 @@ const Scrios = () => {
                 Register Now
               </div>
             </Link>
+            <p className="text-xs mx-4 mt-2 text-center">₹ 50 off per head for the first 6 teams.</p>
           </div>
           <div className="h-auto card border-2 mx-4 border-white py-9 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40" data-aos="fade-right" data-aos-delay="150">
             <h2 className="border-b-2 text-xl font-mono">Contact Details</h2>
