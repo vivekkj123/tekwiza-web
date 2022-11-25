@@ -98,9 +98,9 @@ const Events = () => {
             link={"/poster-paper-presentation"}
           />
           <EventCard
-            name={"Qark Fento"}
+            name={"Quark Fento"}
             image={QarkFentoImage}
-            link={"/events/qark-fento"}
+            link={"/events/quark-fento"}
           />
           <EventCard
             name={"Salvator"}
