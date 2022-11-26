@@ -2,19 +2,26 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useEffect } from "react";
-import zypherImage from "../../public/images/Events/Zypher.png";
 import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
 import PageHeader from "../../src/components/PageHeader";
+import UnfinishedImage from "/public/images/Events/Zypher/unfinished.jpeg";
+import RiddleRookImage from "/public/images/Events/Zypher/riddle-rook.jpeg";
+import TryAgainImage from "/public/images/Events/Zypher/try-again.jpeg";
+import TwitPickerImage from "/public/images/Events/Zypher/twitpicker.jpeg";
+import NefariousImage from "/public/images/Events/Zypher/nefarious.jpeg";
+import DejavuImage from "/public/images/Events/Zypher/dejavu.jpeg";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import ExportedImage from "next-image-export-optimizer/legacy/ExportedImage";
 
 const Zypher = () => {
   useEffect(() => {
@@ -28,7 +35,7 @@ const Zypher = () => {
       <div className="bg-black  overflow-hidden h-full">
         <Navbar />
         <PageHeader title={"Zypher"} />
-        <div className="  font-display grid gap-4 py-5 px-2 lg:px-12 lg:grid-cols-2">
+        <div className="  font-display py-5 px-4 lg:px-20">
           <div className="flex items-center font-thin mx-2 lg:mx-6">
             <p>
               Zypher is an event conducted by the department of Computer Science
@@ -39,56 +46,65 @@ const Zypher = () => {
                 {" "}
                 Participants can showcase their problem solving skills which
                 helps them to tackle real-world challenges.
+                <br />
+                <br />
+                Sub-Events Are (Click to zoom each images):
               </span>
               <br />
-              <span data-aos="fade-right" className="font-bold">
-                ASSEMBLY:
-              </span>{" "}
-              Do you know what makes up the different components of a computer?
-              If so, hop on in for our competition where we test your skills to
-              rebuild a computer article.
-              <br />
-              <span data-aos="fade-right" className="font-bold">
-                CTF:
-              </span>{" "}
-              Showcase your cyber security mastermind by working alongside a
-              team to crack different information security in an attempt to find
-              that hidden flag. Do you have what it takes to Capture The Flag?
-              <br />
-              <span data-aos="fade-right" className="font-bold">
-                BLIND CODING:
-              </span>{" "}
-              Anybody can code, but is coding your best forte? Then we invite
-              you to our blinding coding platform where we help you unravel your
-              capabilities through a series of passage writing challenges.
-              <br />
-              <span data-aos="fade-right" className="font-bold">
-                Web Designing:
-              </span>{" "}
-              An offline web designing event that tests your knowledge of coding
-              and creativity. Construct and implement websites, using both
-              creative and technical skills in a rapidly evolving industry.
-              <br />
-              <span data-aos="fade-right" className="font-bold">
-                Debugging:
-              </span>{" "}
-              An offline coding event that tests your knowledge of coding and
-              programming languages. Detecting and removing of existing and
-              potential errors in a given set of codes.
-              <br />
-              <span data-aos="fade-right" className="font-bold">
-                Competitive Coding:
-              </span>{" "}
-              An offline coding event that tests your knowledge of coding and
-              programming languages. Programmers compete against each other to
-              solve programming questions in a limited amount of time.
-              <br />
-              <span data-aos="fade-right" className="font-bold">
-                TECH HUNT:
-              </span>{" "}
-              Selected 5 teams will participate in Tech Hunt . Top 3 teams will
-              be selected.
-              <br />
+              <div
+                data-aos="fade-right"
+                data-aos-delay="40"
+                className="grid w-fit mx-auto content-center mt-4 gap-4 lg:grid-cols-3"
+              >
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={UnfinishedImage}
+                    />
+                  </Zoom>
+                </div>
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={TryAgainImage}
+                    />
+                  </Zoom>
+                </div>
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={TwitPickerImage}
+                    />
+                  </Zoom>
+                </div>
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={NefariousImage}
+                    />
+                  </Zoom>
+                </div>
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={DejavuImage}
+                    />
+                  </Zoom>
+                </div>
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={RiddleRookImage}
+                    />
+                  </Zoom>
+                </div>
+              </div>
               <br />
               <span data-aos="fade-right" className="font-bold">
                 RULES AND REGULATIONS
@@ -151,7 +167,6 @@ const Zypher = () => {
               </table>
             </p>
           </div>
-          <ExportedImage className="h-46 w-auto" src={zypherImage} />
         </div>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div
