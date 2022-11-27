@@ -34,7 +34,14 @@ const Assiston = () => {
               Don't let your mind to slip, bring up with a constructive idea
               Dept. Of BME in association with TEKWIZA Presents 'ASSISTON' An
               Assistive Technology Workshop Conducted by National Institute of
-              Physical Medicine and Rehabilitation ( NIPMR ) 𝙶𝚄𝙸𝙳𝙴𝙻𝙸𝙽𝙴𝚂 <br />
+              Physical Medicine and Rehabilitation ( NIPMR ). For people without
+              disabilities technology makes their chores easier. But for people
+              with disabilities technology makes things possible. It is not
+              incorrect to say that everyone, if they live long enough, will
+              need assistive technology sooner or later but at some point in
+              their lives.We in collaboration with NIPMR bring you an
+              opportunity to grasp the knowledge on assistive devices through
+              workshop. <br /> 𝙶𝚄𝙸𝙳𝙴𝙻𝙸𝙽𝙴𝚂 <br />
               <ul>
                 <li>🔖Team should consist of maximum 4 members</li>
                 <li>🔖Reg Fee Rs. 200 per team</li>

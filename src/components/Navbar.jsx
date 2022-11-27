@@ -5,8 +5,6 @@ import tekwizaLogo from "/public/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
-  faCaretDown,
-  faCaretUp,
   faWindowClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";

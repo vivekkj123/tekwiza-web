@@ -39,7 +39,7 @@ const Footer = () => {
           <h2>Media Partner</h2>
           <ExportedImage
             alt="ClubFM Logo - Media Partner Tekwiza"
-            className="brightness-0 my-2 h-12 w-auto invert"
+            className="brightness-0 my-2 h-12 w-auto hover:brightness-100 hover:invert-0 invert"
             src={clubfmLogo}
           />
         </Link>

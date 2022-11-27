@@ -2,7 +2,7 @@ import {
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
-  faTrophy
+  faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
@@ -31,9 +31,12 @@ const Ojingo = () => {
         <div className="  font-display grid gap-4 py-5 px-2 lg:px-12 lg:grid-cols-2">
           <div className="flex items-center font-thin mx-2 lg:mx-6">
             <p>
-              A chain of daunting tasks, one after the other testing your
-              skills, cunningness, and strong will to survive….will you be
-              eliminated or are you lucky enough to survive till the end…
+              "Do you have the nerve to take part in the Ojingo Game trials? We
+              should warn you that it’s not for the faint hearted.You don't
+              trust people here.You do it because you have nothing else to rely
+              on. Ojingo is a chain of daunting tasks, one after the other
+              testing your skills, cunningness and strong will to survive.Will
+              you be eliminated or are you lucky enough to survive till the end.
               <table className="table-auto mx-auto my-5 text-center border-white border-2">
                 <thead className="border-b-white border-b-2">
                   <tr>
@@ -89,11 +92,11 @@ h-auto card border-2 mx-4 border-white py-7 font-display flex flex-col items-cen
                 100<span>/-</span>
               </p>
             </div>
-          <Link href={"https://bit.ly/OJInGo"}>
-            <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2 my-2">
-              Register Now
-            </div>
-          </Link>
+            <Link href={"https://bit.ly/OJInGo"}>
+              <div className="text-center cursor-pointer rounded-lg mx-auto button font-mono bg-white text-black px-4 lg:px-5 py-2 my-2">
+                Register Now
+              </div>
+            </Link>
           </div>
           <div
             className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"
