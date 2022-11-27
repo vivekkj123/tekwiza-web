@@ -138,3 +138,7 @@ ul {
     clip-path: polygon(0% 100%, 0% 100%, 0% 100%, 0% 100%);
   }
   }
+
+span{
+  overflow-wrap: anywhere;
+}

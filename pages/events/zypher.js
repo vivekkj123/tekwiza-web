@@ -22,6 +22,7 @@ import DejavuImage from "/public/images/Events/Zypher/dejavu.jpeg";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import ExportedImage from "next-image-export-optimizer/legacy/ExportedImage";
+import CrypsusImage from '/public/images/Events/Zypher/crypsus.jpeg'
 
 const Zypher = () => {
   useEffect(() => {
@@ -54,13 +55,21 @@ const Zypher = () => {
               <div
                 data-aos="fade-right"
                 data-aos-delay="40"
-                className="grid w-fit mx-auto content-center mt-4 gap-4 lg:grid-cols-3"
+                className="grid w-fit mx-auto mt-4 gap-4 lg:grid-cols-3"
               >
                 <div className="p-4 rounded-3xl text-center border border-gray-50">
                   <Zoom>
                     <ExportedImage
                       className="h-72 mb-2 w-auto"
                       src={UnfinishedImage}
+                    />
+                  </Zoom>
+                </div>
+                <div className="p-4 rounded-3xl text-center border border-gray-50">
+                  <Zoom>
+                    <ExportedImage
+                      className="h-72 mb-2 w-auto"
+                      src={CrypsusImage}
                     />
                   </Zoom>
                 </div>
@@ -96,6 +105,7 @@ const Zypher = () => {
                     />
                   </Zoom>
                 </div>
+                <span></span>
                 <div className="p-4 rounded-3xl text-center border border-gray-50">
                   <Zoom>
                     <ExportedImage
@@ -104,6 +114,8 @@ const Zypher = () => {
                     />
                   </Zoom>
                 </div>
+                <span></span>
+
               </div>
               <br />
               <span data-aos="fade-right" className="font-bold">
@@ -195,12 +207,8 @@ h-auto card border-2 mx-4 border-white py-8 font-display flex flex-col items-cen
             <div className="register h-auto my-2 py-2 px-2 flex ">
               <div className="circle"></div> <p className="register-fee">FEE</p>
               <div></div>
-              <FontAwesomeIcon
-                className="mx-2 text-black"
-                icon={faIndianRupeeSign}
-              />
               <p className="text-black price ">
-                450<span>/-</span>
+               FREE <span>!!</span>
               </p>
             </div>
             <Link href={"https://forms.gle/WAW7wuRWisRzqbrK7"}>
