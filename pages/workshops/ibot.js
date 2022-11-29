@@ -43,6 +43,9 @@ const IBot = () => {
               workshop, where you may learn everything there is to know and
               create the most amazing devices. Seize this fantastic opportunity
               to be the driving force that brought humanity to its zenith.
+              <br />
+              <br />
+              <b className="font-bold"> Kit will be provided for Groups</b>
             </p>
           </div>
           <ExportedImage className="h-46 w-auto" src={IbotImage} />
@@ -58,7 +61,7 @@ const IBot = () => {
             <p className="mt-3 text-xs">Dec 3rd</p>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faClock} />
-              <p className="text-xs">9:00 AM - 1:00 PM</p>
+              <p className="text-xs">9:00 AM - 3:30 PM</p>
             </div>
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />

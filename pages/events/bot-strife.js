@@ -1,4 +1,6 @@
 import {
+  faCaretDown,
+  faCaretRight,
   faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
@@ -11,6 +13,7 @@ import ExportedImage from "next-image-export-optimizer";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useEffect } from "react";
+import Collapsible from "react-collapsible";
 import botStrifeImage from "../../public/images/Events/BotStrife.png";
 import Footer from "../../src/components/Footer";
 import Navbar from "../../src/components/Navbar";
@@ -34,27 +37,13 @@ const BotStrife = () => {
               Botstrife is an engineering design competition for engineering
               aspirants. The objective of the competition is to simulate
               real-world engineering design projects and their related
-              challenges. The participants must function as a team or as{" "}
-              <span>
-                an individual to design, engineer, build, test, promote and
-                compete with a bot within the limits of the rules. Event is to
-                build a robot whose task is to push the opposing robot out of
-                the circular ring or flip it over. Different robots compete
-                one-on-one against each other in a knock-out tournament.
-                <br />
-                <br />
-                <span className="font-normal">Dimensions :</span> The bot should
-                fit inside a 800mm*800mm*800mm(l*b*h)box. <br /><br />
-                <span className="font-normal">Weight :</span> 15kg - 33.07 lbs.{" "}
-                <br /><br />
-                Robot can be <span className="font-normal">wired</span> <br /><br />
-                The maximum allowed voltage used for the weapon and motion
-                systems is 60V. However, any usage of voltage higher than{" "}
-                <span className="font-normal">60V</span> may be allowed with
-                specific reasons as long as it is pre-approved by the Event
-                managers. Battery to power the robot should be brought by the
-                participants.
-              </span>
+              challenges. The participants must function as a team or as an
+              individual to design, engineer, build, test, promote and compete
+              with a bot within the limits of the rules <br /> Event is to build
+              a robot whose task is to push the opposing robot out of the
+              circular ring or flip it over. Different robots compete one-on-one
+              against each other in a knock-out tournament.
+              <br />
               <table
                 className="table-auto mx-auto my-5 text-center border-white border-2"
                 data-aos="zoom-in"
@@ -86,17 +75,50 @@ const BotStrife = () => {
           </div>
           <div className="mx-auto">
             <ExportedImage className="h-46 w-auto" src={botStrifeImage} />
-            <div className="mx-auto font-thin border mt-6 lg:w-64 w-48 border-gray-50 flex flex-col rounded-lg p-2 lg:p-4">
+            <div className="mx-auto font-thin border mt-6 lg:w-72 w-48 border-gray-50 flex flex-col rounded-lg p-2 lg:p-4">
               <h2 className="text-center font-bold">Sub-Event 👾</h2>
               <ul>
                 <li>Robots to fight will be provided by coordinators.</li>
                 <li>Registration is spot registration</li>
-                <li>Registration fee: ₹200</li>
-                <li>Prize money: ₹300</li>
+                <li>Registration fee: ₹100</li>
+                <li>Prize money: ₹150</li>
+                <li>Winners will also be awarded with points .</li>
+                <li>
+                  At the end of the event the one with maximum point based on
+                  the ranking will be awarded with an extra cash prize .
+                </li>
+                <li>For 🥇- ₹3000</li>
+                <li>For 🥈- ₹2000</li>
               </ul>
             </div>
           </div>
         </div>
+        <Collapsible
+          openedClassName="font-display font-thin py-3 lg:mx-20 mx-2 px-2 lg:px-10 border-white rounded-lg border-2"
+          className="lg:mx-20 mx-2 font-display font-thin my-5 px-2 lg:px-5 rounded-lg border-white border-2"
+          triggerWhenOpen={
+            <div className="flex items-center p-2 gap-4">
+              <FontAwesomeIcon icon={faCaretDown} />
+              <p className="font-bold">Rules & Regulations</p>
+            </div>
+          }
+          trigger={
+            <div className="flex items-center p-2 gap-4">
+              <FontAwesomeIcon icon={faCaretRight} />
+              <p>Rules & Regulations</p>
+            </div>
+          }
+        >
+          <span className="font-normal">Dimensions :</span> The bot should fit
+          inside a 800mm*800mm*800mm(l*b*h)box. <br />
+          <span className="font-normal">Weight :</span> 15kg - 33.07 lbs. <br />
+          Robot can be <span className="font-normal">wired</span> <br />
+          The maximum allowed voltage used for the weapon and motion systems is
+          60V. However, any usage of voltage higher than{" "}
+          <span className="font-normal">60V</span> may be allowed with specific
+          reasons as long as it is pre-approved by the Event managers. Battery
+          to power the robot should be brought by the participants.
+        </Collapsible>
         <div className="lg:flex-row flex-col flex text-white  items-center  justify-around">
           <div
             className="
@@ -106,7 +128,7 @@ h-auto card border-2 mx-4 border-white py-8 font-display flex flex-col items-cen
           >
             <h2 className="border-b-2 text-xl font-mono">Event Details</h2>
 
-            <p className="mt-3 text-xs">Dec - 2 & 3</p>
+            <p className="mt-3 text-xs">Dec 3rd</p>
 
             <div className="flex  mt-5">
               <FontAwesomeIcon className="mx-2" icon={faMapMarkedAlt} />
@@ -137,6 +159,8 @@ h-auto card border-2 mx-4 border-white py-8 font-display flex flex-col items-cen
                 Register Now
               </div>
             </Link>
+            <i className="text-xs text-center">( Minimum registration to conduct the event is 4, else the cash will be refunded)</i>
+
           </div>
           <div
             className="h-auto card border-2 mx-4 border-white py-4 font-display flex flex-col items-center my-4 rounded-lg lg:w-48 w-40"

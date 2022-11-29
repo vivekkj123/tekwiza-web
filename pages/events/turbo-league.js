@@ -45,15 +45,24 @@ const TurboLeague = () => {
               >
                 <thead className="border-b-white border-b-2">
                   <tr>
-                    <th className="px-4 py-2">
+                    <th>
                       <FontAwesomeIcon className="mx-2" icon={faTrophy} />
-                      Prize Money
                     </th>
+                    <th className="px-4 py-2">Prize Money</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td className="px-4 py-2">Rs. 150/- For Winning Team</td>
+                  <tr className=" border-b-2">
+                    <td className="py-2 px-2 w-6">
+                      1 <sup>st</sup>
+                    </td>
+                    <td className="px-2 py-2">Rs. 1,000/-</td>
+                  </tr>
+                  <tr className=" border-b-2">
+                    <td className="py-2 px-2 w-6">
+                      2<sup>nd</sup>
+                    </td>
+                    <td className="px-2 py-2">Rs. 500/-</td>
                   </tr>
                 </tbody>
               </table>
@@ -95,7 +104,7 @@ const TurboLeague = () => {
                 icon={faIndianRupeeSign}
               />
               <p className="text-black price ">
-                100 <span>/-</span> team
+                200 <span>/-</span> team
               </p>
             </div>
             <Link href={"https://forms.gle/n1v3Bw5geSPFxs5q8"}>
