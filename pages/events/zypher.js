@@ -125,7 +125,7 @@ const Zypher = () => {
               <ul className="list-decimal" data-aos="fade-right">
                 <li>
                   The entry fee for each team containing a maximum of 3 people
-                  is Rs.450/-. Registrations for all events will be off-limits
+                  is Rs.150/-. Registrations for all events will be off-limits
                   after 11:59 pm on 30th November 2022.
                 </li>
                 <li>
@@ -208,7 +208,7 @@ h-auto card border-2 mx-4 border-white py-8 font-display flex flex-col items-cen
               <div className="circle"></div> <p className="register-fee">FEE</p>
               <div></div>
               <p className="text-black price ">
-               FREE <span>!!</span>
+               150 <span>/-</span>
               </p>
             </div>
             <Link href={"https://forms.gle/WAW7wuRWisRzqbrK7"}>
