@@ -9,6 +9,8 @@ import WoodenPerk from "../../public/images/sponsors/Woodenperk.png";
 import BillionBees from "../../public/images/sponsors/BillionBees.png";
 import LeosGD from "../../public/images/sponsors/Leo's Gold & Diamonds.png";
 import Konikkara from "../../public/images/sponsors/Konikkara.jpg";
+import DCJewellers from "../../public/images/sponsors/DCJewellers.png";
+import KalyanSilks from "../../public/images/sponsors/kalyan.png";
 
 const Sponsors = () => {
   return (
@@ -59,6 +61,20 @@ const Sponsors = () => {
             alt="Konikkara Gold & Diamonds"
             className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
             src={Konikkara}
+          />
+        </Link>
+        <Link href={""}>
+          <ExportedImage
+            alt="DC Jewellers"
+            className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
+            src={DCJewellers}
+          />
+        </Link>
+        <Link href={""}>
+          <ExportedImage
+            alt="Kalyan Silks"
+            className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
+            src={KalyanSilks}
           />
         </Link>
       </div>
