@@ -11,6 +11,11 @@ import LeosGD from "../../public/images/sponsors/Leo's Gold & Diamonds.png";
 import Konikkara from "../../public/images/sponsors/Konikkara.jpg";
 import DCJewellers from "../../public/images/sponsors/DCJewellers.png";
 import KalyanSilks from "../../public/images/sponsors/kalyan.png";
+import SilpiJewellers from "../../public/images/sponsors/SilpiJewellers.png";
+import BrightEnergy from "../../public/images/sponsors/BrightEnergy.png";
+import FlorenceAcademy from "../../public/images/sponsors/florenceAcademy.png";
+
+
 
 const Sponsors = () => {
   return (
@@ -75,6 +80,27 @@ const Sponsors = () => {
             alt="Kalyan Silks"
             className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
             src={KalyanSilks}
+          />
+        </Link>
+        <Link href={""}>
+          <ExportedImage
+            alt="Silpi Jewellers"
+            className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
+            src={SilpiJewellers}
+          />
+        </Link>
+        <Link href={""}>
+          <ExportedImage
+            alt="Bright Energy"
+            className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
+            src={BrightEnergy}
+          />
+        </Link>
+        <Link href={""}>
+          <ExportedImage
+            alt="Florence Academy"
+            className="hover:bg-black p-2 hover:bg-opacity-40 rounded-xl h-20 m-4 w-auto"
+            src={FlorenceAcademy}
           />
         </Link>
       </div>
