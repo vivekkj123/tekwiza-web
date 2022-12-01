@@ -1,6 +1,7 @@
 import {
   faCaretDown,
   faCaretRight,
+  faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
@@ -216,9 +217,12 @@ h-auto card border-2 mx-4 border-white py-7 font-display flex flex-col items-cen
             <div className="register h-auto my-2 py-2 px-2 flex ">
               <div className="circle"></div> <p className="register-fee">FEE</p>
               <div></div>
-              {/* <FontAwesomeIcon className="mx-2 text-black" icon={faIndianRupeeSign} /> */}
+              <FontAwesomeIcon
+                className="mx-2 text-black"
+                icon={faIndianRupeeSign}
+              />
               <p className="text-black price px-2">
-                Free<span></span>
+                30<span>/-</span>
               </p>
             </div>
 

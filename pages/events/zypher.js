@@ -1,5 +1,4 @@
 import {
-  faIndianRupeeSign,
   faMapMarkedAlt,
   faPhone,
   faTrophy,
@@ -28,6 +27,7 @@ const Zypher = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
+
   return (
     <>
       <Head>
@@ -36,6 +36,7 @@ const Zypher = () => {
       <div className="bg-black  overflow-hidden h-full">
         <Navbar />
         <PageHeader title={"Zypher"} />
+
         <div className="  font-display py-5 px-4 lg:px-20">
           <div className="flex items-center font-thin mx-2 lg:mx-6">
             <p>
@@ -143,7 +144,8 @@ const Zypher = () => {
                 </li>
                 <li>Malpractices of any kind will not be entertained.</li>
               </ul>
-              <table
+              <iframe id="leaderboard" className="h-64 overflow-y-visible mx-auto mt-10 w-full text-center"  src="https://zypher-leaderboard.vercel.app/" scrolling="no"  frameborder="0"></iframe>
+             <table
                 className="table-auto mx-auto my-5 text-center border-white border-2"
                 data-aos="zoom-in"
                 data-aos-delay="50"
