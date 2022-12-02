@@ -11,6 +11,7 @@ import toogleImage from "/public/images/Workshops/toogle-workshop.JPG";
 import AssistonImage from "/public/images/Workshops/Assiston.jpg";
 import AndroidCampusFestImage from "/public/images/Workshops/Android Campus Fest.jpg";
 import ElectronicVehicleWorkshop from "/public/images/Workshops/ElectricVehicle.jpeg";
+import IndustrialAutomation from "/public/images/Workshops/industrialAutomation.jpeg";
 
 const Workshops = () => {
   return (
@@ -48,6 +49,11 @@ const Workshops = () => {
             link={"/workshops/ev-workshop"}
           />
           <EventCard name={"IBot"} image={IbotImage} link={"/workshops/ibot"} />
+          <EventCard
+            name={"Industrial Automation"}
+            image={IndustrialAutomation}
+            link={"/workshops/industrial-automation"}
+          />
           <EventCard name={"Sketchwiz"} image={sketchWizImage} />
         </div>
         <Footer />

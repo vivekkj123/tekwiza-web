@@ -11,6 +11,9 @@ module.exports = {
         display: ["Montserrat", "sans-serif"],
         mono:  ['VT323', 'monospace']
       },
+      height:{
+        '168': '42rem'
+      }
     },
   },
   plugins: [],

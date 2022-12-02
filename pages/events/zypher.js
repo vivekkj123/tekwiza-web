@@ -144,7 +144,7 @@ const Zypher = () => {
                 </li>
                 <li>Malpractices of any kind will not be entertained.</li>
               </ul>
-              <iframe id="leaderboard" className="h-64 overflow-y-visible mx-auto mt-10 w-full text-center"  src="https://zypher-leaderboard.vercel.app/" scrolling="no"  frameborder="0"></iframe>
+              <iframe id="leaderboard" className="h-168 overflow-y-visible mx-auto mt-10 w-full text-center"  src="https://zypher-leaderboard.vercel.app/" scrolling="no"  frameborder="0"></iframe>
              <table
                 className="table-auto mx-auto my-5 text-center border-white border-2"
                 data-aos="zoom-in"
